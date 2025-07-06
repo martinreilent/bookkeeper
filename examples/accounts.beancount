@@ -1,0 +1,59 @@
+;; Account opening directives
+;; Generated from: examples/transactions.beancount
+;; Generated on: Sun Jul  6 15:17:24 EEST 2025
+
+;; Assets accounts
+1900-01-01   open Assets:EE:SEB:2010                  EUR
+1900-01-01   open Assets:External:ABLietuvosdraudimasEestifiliaal EUR
+1900-01-01   open Assets:External:ALLASALMAR          EUR
+1900-01-01   open Assets:External:AdriantoOU          EUR
+1900-01-01   open Assets:External:COMMERCETRADINGO    EUR
+1900-01-01   open Assets:External:DLBTRADINGO         EUR
+1900-01-01   open Assets:External:EESTILOTOAS         EUR
+1900-01-01   open Assets:External:ELISAEESTIAS        EUR
+1900-01-01   open Assets:External:IIRISLSI            EUR
+1900-01-01   open Assets:External:KASPARKRIISK        EUR
+1900-01-01   open Assets:External:KRaatuse18          EUR
+1900-01-01   open Assets:External:LEPPSANDER          EUR
+1900-01-01   open Assets:External:LUXEXPRESSESTONIAAS EUR
+1900-01-01   open Assets:External:MAKSEKESKUSAS       EUR
+1900-01-01   open Assets:External:MartchO             EUR
+1900-01-01   open Assets:External:MyFitnessAS         EUR
+1900-01-01   open Assets:External:NIKOLAJEVALEKSANDR  EUR
+1900-01-01   open Assets:External:OPLAYTECHESTONIA    EUR
+1900-01-01   open Assets:External:PAJUMARKO           EUR
+1900-01-01   open Assets:External:PATTEINGRID         EUR
+1900-01-01   open Assets:External:PAYSERALTUAB        EUR
+1900-01-01   open Assets:External:POLETUKERKKI        EUR
+1900-01-01   open Assets:External:PRAAKLIMARKO        EUR
+1900-01-01   open Assets:External:PensionikeskusAS    EUR
+1900-01-01   open Assets:External:RAHANDUSMINISTEERIUM EUR
+1900-01-01   open Assets:External:RIDANGOAS           EUR
+1900-01-01   open Assets:External:SMARTECHSHOPO       EUR
+1900-01-01   open Assets:External:SOSLASTEKLAEESTIHINGMT EUR
+1900-01-01   open Assets:External:TANTSUSTUUDIOLATINPASSIONMT EUR
+1900-01-01   open Assets:External:TEPPORPATRICK       EUR
+1900-01-01   open Assets:External:TOLKMEELIS          EUR
+1900-01-01   open Assets:External:VENDJANNO           EUR
+1900-01-01   open Assets:External:VeikkoKalmus        EUR
+1900-01-01   open Assets:External:ZONEMEDIAO          EUR
+1900-01-01   open Assets:Transfers                    EUR
+
+;; Liabilities accounts
+1900-01-01   open Liabilities:Loan                    EUR
+
+;; Income accounts
+1900-01-01   open Income:Interest                     EUR
+1900-01-01   open Income:Salary                       EUR
+
+;; Expenses accounts
+1900-01-01   open Expenses:Bank:Fees                  EUR
+1900-01-01   open Expenses:Clothing                   EUR
+1900-01-01   open Expenses:Entertainment:Subscriptions EUR
+1900-01-01   open Expenses:Food:Groceries             EUR
+1900-01-01   open Expenses:Insurance                  EUR
+1900-01-01   open Expenses:Transportation:Fuel        EUR
+1900-01-01   open Expenses:Travel:Accommodation       EUR
+1900-01-01   open Expenses:Unknown                    EUR
+1900-01-01   open Expenses:Utilities                  EUR
+

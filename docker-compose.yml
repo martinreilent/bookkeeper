@@ -1,0 +1,15 @@
+version: "3.8"
+services:
+  fava:
+    build: .
+    volumes:
+      - ./examples:/files
+    ports:
+      - 5000:5000
+    environment:
+      - BEANCOUNT_FILE=/files/martin.beancount
+    logging:
+      driver: json-file
+      options:
+        max-size: 1m
+        max-file: "3"

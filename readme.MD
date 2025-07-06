@@ -20,3 +20,10 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 ## License
 [MIT](LICENSE)
+
+## TODO
+
+bean-example > example.beancount
+
+
+docker run -itd -p 5000:5000 -v ./:/files -e BEANCOUNT_FILE=/files/example.beancount --name fava fava
