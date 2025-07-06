@@ -19,7 +19,7 @@ importers = [
     # ofx.Importer("379700001111222", "Liabilities:US:CreditCard", "bofa"),
     # acme.Importer("Assets:US:ACMEBank"),
     # csvbank.Importer("Assets:US:CSVBank", "USD"),
-    sebbank.SebBankCSVImporter("Assets:EE:SEB")
+    sebbank.SebBankCSVImporter("Assets:SEB")
 ]
 
 

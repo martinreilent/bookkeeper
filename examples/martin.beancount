@@ -2,5 +2,5 @@
 
 option "operating_currency" "EUR"
 
-include "accounts.beancount"
+;; include "accounts.beancount"
 include "transactions.beancount"

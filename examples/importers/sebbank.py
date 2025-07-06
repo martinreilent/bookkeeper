@@ -133,8 +133,6 @@ class SebBankCSVImporter(beangulp.Importer):
                 
                 # Add payee/payer name if available
                 payee = row.get('Saaja/maksja nimi', '').strip('"')
-                if payee and payee != 'SEB':
-                    description_parts.append(payee)
                 
                 # Add explanation/description
                 explanation = row.get('Selgitus', '').strip('"')
@@ -150,18 +148,25 @@ class SebBankCSVImporter(beangulp.Importer):
                 
                 # Determine counterparty account
                 counterparty_account = self._get_counterparty_account(row)
-                
+
+
                 # Create transaction
                 postings = [
                     data.Posting(
-                        main_account,
-                        amount.Amount(amount_num, currency),
-                        None, None, None, None
+                        account=main_account,
+                        units=amount.Amount(amount_num, currency),
+                        cost=None, 
+                        price=None, 
+                        flag=None,
+                        meta=None
                     ),
                     data.Posting(
-                        counterparty_account,
-                        amount.Amount(-amount_num, currency),
-                        None, None, None, None
+                        account=counterparty_account,
+                        units=amount.Amount(-amount_num, currency),
+                        cost=None, 
+                        price=None, 
+                        flag=None,
+                        meta=None
                     )
                 ]
                 
@@ -172,13 +177,36 @@ class SebBankCSVImporter(beangulp.Importer):
                     links.add(f"seb-{ref_num}")
                 
                 txn = data.Transaction(
-                    meta, txn_date, flags.FLAG_OKAY, None, description,
-                    data.EMPTY_SET, links, postings
+                    meta=meta,
+                    date=txn_date,
+                    flag=flags.FLAG_OKAY,
+                    payee=payee,
+                    narration=description,
+                    tags=data.EMPTY_SET,
+                    links=links,
+                    postings=postings
                 )
                 
                 entries.append(txn)
-        
-        return entries
+
+        # filter out all unique accounts and prepend to array with data.open()
+        # TODO make this better by
+        # 1. Also checking existing entries for accounts
+        # 2. Making sure that correct date is used for Open entries (incase csv is not ordered by date)
+        # 3. Make it part of the same loop as entries, so that metadata index is correct
+        unique_accs = {}
+        for entry in entries:
+            for posting in entry.postings:
+                if posting.account not in unique_accs:
+                    unique_accs[posting.account] = data.Open(
+                            date=entry.date,
+                            account=posting.account,
+                            meta=data.new_metadata(filepath, 1),
+                            currencies=[posting.units.currency],
+                            booking=None,
+                        )
+                            
+        return list(unique_accs.values()) + entries
     
     def _get_counterparty_account(self, row):
         """Determine the appropriate counterparty account based on transaction details."""
@@ -251,7 +279,7 @@ class SebBankCSVImporter(beangulp.Importer):
 
 
 if __name__ == "__main__":
-    main(SebBankCSVImporter("Assets:EE:SEB"))
+    main(SebBankCSVImporter("Assets:SEB"))
 
 
 
