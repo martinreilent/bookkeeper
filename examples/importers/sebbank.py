@@ -216,6 +216,7 @@ class SebBankCSVImporter(beangulp.Importer):
         payee = row.get('Saaja/maksja nimi', '').strip('"')
         explanation = row.get('Selgitus', '').strip('"').lower()
         txn_type = row.get('Tüüp', '').strip('"')
+        debit_credit = row.get('Deebet/Kreedit (D/C)', '').strip('"')
         
         # Bank fees and charges (but not interest income)
         if (payee == 'SEB' or 'teenustasu' in explanation or 'intressi tulumaks' in explanation) and 'intresside väljamaks' not in explanation:
@@ -249,28 +250,32 @@ class SebBankCSVImporter(beangulp.Importer):
             return "Expenses:Utilities"
         
         # Insurance
-        if 'kindlustus' in explanation.lower() or 'kindlustus' in payee.lower():
+        if 'kindlustus' in explanation.lower() or 'kindlustus' in payee.lower() or 'poliis' in explanation.lower():
             return "Expenses:Insurance"
         
         # Loan payments
         if txn_type == 'L' or 'lep.' in explanation:
             return "Liabilities:Loan"
         
-        # Transfers to/from known accounts
-        if counterparty_account_str and counterparty_account_str.startswith('EE'):
-            if 'martin' in payee.lower():
-                return "Assets:Transfers"
-            else:
-                # Clean up payee name for account name (remove special characters)
-                clean_payee = re.sub(r'[^A-Za-z0-9]', '', payee) if payee else "Unknown"
-                return f"Assets:External:{clean_payee}" if clean_payee else "Assets:External:Unknown"
-        
-        # Donations
+         # Donations
         if any(keyword in explanation.lower() for keyword in ['annetus', 'annetamine']):
             return "Expenses:Charity"
         
+
+        
+
+        # Transfers to/from known accounts
+        if counterparty_account_str and counterparty_account_str.startswith('EE'):
+            clean_payee = re.sub(r'[^A-Za-z0-9]', '', payee.upper()) if payee else "Unknown"
+            
+            if debit_credit == 'D':
+                # Debit means money going out, so it's a transfer from this account
+                return f"Expenses:External:{clean_payee}"
+            else:
+                # Credit means money coming in, so it's a transfer to this account
+                return f"Income:External:{clean_payee}"
+        
         # Default to unknown expenses for debits, unknown income for credits
-        debit_credit = row.get('Deebet/Kreedit (D/C)', '').strip('"')
         if debit_credit == 'D':
             return "Expenses:Unknown"
         else:
