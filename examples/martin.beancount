@@ -2,5 +2,19 @@
 
 option "operating_currency" "EUR"
 
+option "documents" "./Documents"
+
+
 ;; include "accounts.beancount"
 include "transactions.beancount"
+
+
+;; experimental fava import. Does not fully work because can not import accounts. Rething in future.
+;; Currently will import to insert.beancount
+;;
+;; include "insert.beancount"
+;;
+;; 2000-01-01 custom "fava-option" "import-config" "import_config.py"
+;; 2000-01-01 custom "fava-option" "import-dirs" "Downloads2"
+;; 2000-01-01 custom "fava-option" "default-file" "insert.beancount"
+

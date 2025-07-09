@@ -21,9 +21,9 @@ log = utils.logger(verbosity=1, err=True)
 class SebBankCSVImporter(beangulp.Importer):
     """Importer for SEB Estonia CSV (kontovv) files."""
     
-    def __init__(self, account_prefix, account_unknown="Equity:Opening-Balances"):
+    def __init__(self, account_prefix, create_new_accounts=True):
         self.account_prefix = account_prefix  # e.g., "Assets:EE:SEB"
-        self.account_unknown = account_unknown
+        self.create_new_accounts = create_new_accounts  # Whether to create new accounts for unique postings
 
     def identify(self, filepath):
         mimetype, encoding = mimetypes.guess_type(filepath)
@@ -89,6 +89,7 @@ class SebBankCSVImporter(beangulp.Importer):
                     continue
                     
                 meta = data.new_metadata(filepath, index)
+                meta['__source__'] = str(row)
                 
                 # Parse date
                 date_str = row.get('Kuupäev', '').strip('"')
@@ -195,16 +196,17 @@ class SebBankCSVImporter(beangulp.Importer):
         # 2. Making sure that correct date is used for Open entries (incase csv is not ordered by date)
         # 3. Make it part of the same loop as entries, so that metadata index is correct
         unique_accs = {}
-        for entry in entries:
-            for posting in entry.postings:
-                if posting.account not in unique_accs:
-                    unique_accs[posting.account] = data.Open(
-                            date=entry.date,
-                            account=posting.account,
-                            meta=data.new_metadata(filepath, 1),
-                            currencies=[posting.units.currency],
-                            booking=None,
-                        )
+        if self.create_new_accounts:
+            for entry in entries:
+                for posting in entry.postings:
+                    if posting.account not in unique_accs:
+                        unique_accs[posting.account] = data.Open(
+                                date=entry.date,
+                                account=posting.account,
+                                meta=data.new_metadata(filepath, 1),
+                                currencies=[posting.units.currency],
+                                booking=None,
+                            )
                             
         return list(unique_accs.values()) + entries
     
