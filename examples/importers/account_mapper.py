@@ -178,7 +178,7 @@ class AccountMapper:
         if payee:
             # First replace spaces with hyphens, then remove other non-alphanumeric characters except hyphens
             clean_payee = re.sub(r'\s+', '-', payee.strip())  # Replace spaces with hyphens
-            clean_payee = re.sub(r'[^A-Za-z0-9-]', '', clean_payee.upper())  # Remove other special chars but keep hyphens
+            clean_payee = re.sub(r'[^A-Za-z0-9-üõöäÜÕÖÄ]', '', clean_payee.upper())  # Remove other special chars but keep hyphens
         else:
             clean_payee = "Unknown"
         

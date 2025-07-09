@@ -6,6 +6,7 @@ option "documents" "./Documents"
 
 
 ;; include "accounts.beancount"
+include "manual.beancount"
 include "transactions.beancount"
 
 

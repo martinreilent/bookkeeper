@@ -214,11 +214,11 @@
   Assets:SEB:2010     -58.72 EUR
   Expenses:Insurance   58.72 EUR
 
-2020-01-12 open Expenses:External:K-RAATUSE-18                  EUR
+2020-01-12 open Expenses:External:KÜ-RAATUSE-18                 EUR
 
 2020-01-12 * "KÜ Raatuse 18" "Arve nr 200130 tasumine" ^seb-RD192552392
-  Assets:SEB:2010                 -112.28 EUR
-  Expenses:External:K-RAATUSE-18   112.28 EUR
+  Assets:SEB:2010                  -112.28 EUR
+  Expenses:External:KÜ-RAATUSE-18   112.28 EUR
 
 2020-01-13 * "Telia Eesti AS" "Telia mobiilsete teenuste arve B19121734769" ^seb-RO2616101039
   Assets:SEB:2010     -1.00 EUR
@@ -425,8 +425,8 @@
   Expenses:Utilities   1.00 EUR
 
 2020-02-13 * "KÜ Raatuse 18" "Arve nr 200230 tasumine" ^seb-RD193846621
-  Assets:SEB:2010                 -111.58 EUR
-  Expenses:External:K-RAATUSE-18   111.58 EUR
+  Assets:SEB:2010                  -111.58 EUR
+  Expenses:External:KÜ-RAATUSE-18   111.58 EUR
 
 2020-02-13 * "SEB" "11/02/2020 19:14 kaart...679766 572 Tartu Kvartal #169284" ^seb-RO2635867620
   Assets:SEB:2010     -143.40 EUR
@@ -436,11 +436,11 @@
   Assets:SEB:2010                   -0.60 EUR
   Expenses:External:REILENT-MARTIN   0.60 EUR
 
-2020-02-20 open Income:External:O-PLAYTECH-ESTONIA              EUR
+2020-02-20 open Income:External:OÜ-PLAYTECH-ESTONIA             EUR
 
 2020-02-20 * "OÜ PLAYTECH ESTONIA" "Prillikompensatsioon" ^seb-RO2640555849
-  Assets:SEB:2010                      100.00 EUR
-  Income:External:O-PLAYTECH-ESTONIA  -100.00 EUR
+  Assets:SEB:2010                       100.00 EUR
+  Income:External:OÜ-PLAYTECH-ESTONIA  -100.00 EUR
 
 2020-02-23 * "REILENT MARTIN" "Makse SEB rakendusest" ^seb-RO2642016366
   Assets:SEB:2010                   -80.00 EUR
@@ -589,8 +589,8 @@
   Expenses:External:NIKOLAJEV-ALEKSANDR   40.00 EUR
 
 2020-03-09 * "OÜ PLAYTECH ESTONIA" "Kalade programm 03/2020" ^seb-RO2652006747
-  Assets:SEB:2010                      43.40 EUR
-  Income:External:O-PLAYTECH-ESTONIA  -43.40 EUR
+  Assets:SEB:2010                       43.40 EUR
+  Income:External:OÜ-PLAYTECH-ESTONIA  -43.40 EUR
 
 2020-03-10 * "My Fitness AS" "Arve 20191596 tasumine" ^seb-RO2652705713
   Assets:SEB:2010                  -30.00 EUR
@@ -621,8 +621,8 @@
   Expenses:External:REILENT-MARTIN   100.00 EUR
 
 2020-03-13 * "KÜ Raatuse 18" "Arve nr 200330 tasumine" ^seb-RD195087861
-  Assets:SEB:2010                 -117.79 EUR
-  Expenses:External:K-RAATUSE-18   117.79 EUR
+  Assets:SEB:2010                  -117.79 EUR
+  Expenses:External:KÜ-RAATUSE-18   117.79 EUR
 
 2020-03-16 * "SEB" "14/03/2020 22:20 kaart...549860 BOLT.EU /O/2003142312/Tallinn/EST #484007" ^seb-RO2657126859
   Assets:SEB:2010     -3.70 EUR
@@ -664,7 +664,7 @@
 
 2020-04-01 open Expenses:External:RAHANDUSMINISTEERIUM          EUR
 
-2020-04-01 open Expenses:External:MARTCH-O                      EUR
+2020-04-01 open Expenses:External:MARTCH-OÜ                     EUR
 
 2020-04-01 * "SEB" "30/03/2020 13:15 kaart...549860 RESTORAN MUNCHEN #047770" ^seb-RO2664054255
   Assets:SEB:2010     -18.80 EUR
@@ -679,8 +679,8 @@
   Expenses:External:RAHANDUSMINISTEERIUM   190.00 EUR
 
 2020-04-01 * "Martch OÜ" "Osakapitali sissemakse" ^seb-RD195678487
-  Assets:SEB:2010             -2500.00 EUR
-  Expenses:External:MARTCH-O   2500.00 EUR
+  Assets:SEB:2010              -2500.00 EUR
+  Expenses:External:MARTCH-OÜ   2500.00 EUR
 
 2020-04-02 * "REILENT MARTIN" "Digikassa kanne" ^seb-RO2664553417
   Assets:SEB:2010                   -0.20 EUR
@@ -729,8 +729,8 @@
   Expenses:External:REILENT-MARTIN   0.02 EUR
 
 2020-04-07 * "OÜ PLAYTECH ESTONIA" "Kalade programm 04/2020" ^seb-RO2667782956
-  Assets:SEB:2010                      123.19 EUR
-  Income:External:O-PLAYTECH-ESTONIA  -123.19 EUR
+  Assets:SEB:2010                       123.19 EUR
+  Income:External:OÜ-PLAYTECH-ESTONIA  -123.19 EUR
 
 2020-04-10 * "Telia Eesti AS" "e-arve 04202001612079" ^seb-RO2669675903
   Assets:SEB:2010     -38.00 EUR
@@ -741,8 +741,8 @@
   Expenses:External:REILENT-MARTIN   125.00 EUR
 
 2020-04-11 * "KÜ Raatuse 18" "Arve nr 200430B tasumine" ^seb-RD196230381
-  Assets:SEB:2010                 -105.12 EUR
-  Expenses:External:K-RAATUSE-18   105.12 EUR
+  Assets:SEB:2010                  -105.12 EUR
+  Expenses:External:KÜ-RAATUSE-18   105.12 EUR
 
 2020-04-13 * "Telia Eesti AS" "Telia mobiilsete teenuste arve B20032850575" ^seb-RO2670891985
   Assets:SEB:2010     -1.00 EUR
@@ -796,15 +796,15 @@
   Assets:SEB:2010                   -0.46 EUR
   Expenses:External:REILENT-MARTIN   0.46 EUR
 
-2020-04-27 open Expenses:External:DLB-TRADING-O                 EUR
+2020-04-27 open Expenses:External:DLB-TRADING-OÜ                EUR
 
 2020-04-27 * "REILENT MARTIN" "Makse SEB rakendusest" ^seb-RO2677675033
   Assets:SEB:2010                   -100.00 EUR
   Expenses:External:REILENT-MARTIN   100.00 EUR
 
 2020-04-27 * "DLB TRADING OÜ" "tellimuse maksmine 4446065" ^seb-RO2677809706
-  Assets:SEB:2010                  -292.00 EUR
-  Expenses:External:DLB-TRADING-O   292.00 EUR
+  Assets:SEB:2010                   -292.00 EUR
+  Expenses:External:DLB-TRADING-OÜ   292.00 EUR
 
 2020-04-28 * "SEB" "Kaardi ...679766 hooldustasu kuus (04/2020) | (TT)" ^seb-RO2677903275
   Assets:SEB:2010     -1.00 EUR
@@ -912,7 +912,7 @@
   Assets:SEB:2010   -12.70 EUR
   Expenses:Unknown   12.70 EUR
 
-2020-05-13 open Expenses:External:SMARTECH-SHOP-O               EUR
+2020-05-13 open Expenses:External:SMARTECH-SHOP-OÜ              EUR
 
 2020-05-13 * "REILENT MARTIN" "Digikassa kanne" ^seb-RO2687050257
   Assets:SEB:2010                   -0.30 EUR
@@ -927,12 +927,12 @@
   Expenses:External:NIKOLAJEV-ALEKSANDR   40.00 EUR
 
 2020-05-13 * "KÜ Raatuse 18" "Arve nr 200530 tasumine" ^seb-RD197586066
-  Assets:SEB:2010                 -96.93 EUR
-  Expenses:External:K-RAATUSE-18   96.93 EUR
+  Assets:SEB:2010                  -96.93 EUR
+  Expenses:External:KÜ-RAATUSE-18   96.93 EUR
 
 2020-05-13 * "SMARTECH SHOP OÜ" "Smartech Shop OU tellimine 26147" ^seb-RO2687555571
-  Assets:SEB:2010                    -234.90 EUR
-  Expenses:External:SMARTECH-SHOP-O   234.90 EUR
+  Assets:SEB:2010                     -234.90 EUR
+  Expenses:External:SMARTECH-SHOP-OÜ   234.90 EUR
 
 2020-05-15 * "E-SIGARETIPOOD EEDEN  \\\\Tartu linn        \\ESTEST" "13/05/2020 12:27 kaart...549860 E-SIGARETIPOOD EEDEN #344841" ^seb-RO2688338690
   Assets:SEB:2010   -20.97 EUR
@@ -980,11 +980,11 @@
   Assets:SEB:2010                  47.00 EUR
   Income:External:REILENT-MARTIN  -47.00 EUR
 
-2020-05-20 open Expenses:External:TANTSUSTUUDIO-LATIN-PASSION-MT EUR
+2020-05-20 open Expenses:External:TANTSUSTUUDIO-LATIN-PASSION-MTÜ EUR
 
 2020-05-20 * "TANTSUSTUUDIO LATIN PASSION MTÜ" "Arve nr 14415" ^seb-RO2691468539
-  Assets:SEB:2010                                   -25.00 EUR
-  Expenses:External:TANTSUSTUUDIO-LATIN-PASSION-MT   25.00 EUR
+  Assets:SEB:2010                                    -25.00 EUR
+  Expenses:External:TANTSUSTUUDIO-LATIN-PASSION-MTÜ   25.00 EUR
 
 2020-05-22 * "AMZN Mktp DE*UX6OJ2R25\\5 rue plaetis\\800-279-6620\\L2338     LUXLUX" "21/05/2020 00:00 kaart...549860 AMZN Mktp DE*UX6OJ2R25/800-279-6620/LUX #972069" ^seb-RO2692287658
   Assets:SEB:2010   -44.88 EUR
@@ -1151,8 +1151,8 @@
   Expenses:External:REILENT-MARTIN   0.92 EUR
 
 2020-06-09 * "OÜ PLAYTECH ESTONIA" "Kalade programm 06/2020" ^seb-RO2703071431
-  Assets:SEB:2010                      103.41 EUR
-  Income:External:O-PLAYTECH-ESTONIA  -103.41 EUR
+  Assets:SEB:2010                       103.41 EUR
+  Income:External:OÜ-PLAYTECH-ESTONIA  -103.41 EUR
 
 2020-06-10 * "My Fitness AS" "Arve 20246346 tasumine" ^seb-RO2703526104
   Assets:SEB:2010                  -27.10 EUR
@@ -1170,15 +1170,15 @@
   Assets:SEB:2010   250.41 EUR
   Income:Salary    -250.41 EUR
 
-2020-06-12 open Income:External:IIRIS-LSI                       EUR
+2020-06-12 open Income:External:IIRIS-LÜSI                      EUR
 
 2020-06-12 * "REILENT MARTIN" "Sissemakse kogumishoiusele" ^seb-RO2705551269
   Assets:SEB:2010                   -300.00 EUR
   Expenses:External:REILENT-MARTIN   300.00 EUR
 
 2020-06-12 * "IIRIS LÜSI" "ingi" ^seb-RO2705295116
-  Assets:SEB:2010             60.00 EUR
-  Income:External:IIRIS-LSI  -60.00 EUR
+  Assets:SEB:2010              60.00 EUR
+  Income:External:IIRIS-LÜSI  -60.00 EUR
 
 2020-06-13 * "Telia Eesti AS" "Telia mobiilsete teenuste arve B20053594692" ^seb-RO2705960261
   Assets:SEB:2010     -1.00 EUR
@@ -1189,8 +1189,8 @@
   Expenses:Unknown   18.00 EUR
 
 2020-06-13 * "KÜ Raatuse 18" "Arve nr 200630 tasumine" ^seb-RD198934993
-  Assets:SEB:2010                 -87.46 EUR
-  Expenses:External:K-RAATUSE-18   87.46 EUR
+  Assets:SEB:2010                  -87.46 EUR
+  Expenses:External:KÜ-RAATUSE-18   87.46 EUR
 
 2020-06-13 * "EURONICS TARTU KAUBAMA\\\\TARTU             \\ESTEST" "11/06/2020 12:26 kaart...549860 EURONICS TARTU KAUBAMA #144782" ^seb-RO2705748571
   Assets:SEB:2010   -89.99 EUR
@@ -1397,8 +1397,8 @@
   Expenses:Insurance   47.80 EUR
 
 2020-07-12 * "KÜ Raatuse 18" "Arve nr 200730 tasumine" ^seb-RD200100950
-  Assets:SEB:2010                 -62.58 EUR
-  Expenses:External:K-RAATUSE-18   62.58 EUR
+  Assets:SEB:2010                  -62.58 EUR
+  Expenses:External:KÜ-RAATUSE-18   62.58 EUR
 
 2020-07-13 * "Telia Eesti AS" "Telia mobiilsete teenuste arve B20063966773" ^seb-RO2723766693
   Assets:SEB:2010     -1.00 EUR
@@ -1418,11 +1418,11 @@
   Assets:SEB:2010              22.00 EUR
   Income:External:PAJU-MARKO  -22.00 EUR
 
-2020-07-21 open Expenses:External:ZONE-MEDIA-O                  EUR
+2020-07-21 open Expenses:External:ZONE-MEDIA-OÜ                 EUR
 
 2020-07-21 * "ZONE MEDIA OÜ" "Invoice 8542116 (martch.eu)" ^seb-RO2729726484
-  Assets:SEB:2010                 -7.99 EUR
-  Expenses:External:ZONE-MEDIA-O   7.99 EUR
+  Assets:SEB:2010                  -7.99 EUR
+  Expenses:External:ZONE-MEDIA-OÜ   7.99 EUR
 
 2020-07-27 * "BOLT.EU" "25/07/2020 19:23 kaart...549860 BOLT.EU /O/2007251932/Tallinn/EST #573350" ^seb-RO2732463087
   Assets:SEB:2010   -5.70 EUR
@@ -1603,8 +1603,8 @@
   Expenses:Utilities   1.00 EUR
 
 2020-08-13 * "KÜ Raatuse 18" "Arve nr 200830 tasumine" ^seb-RD201367774
-  Assets:SEB:2010                 -72.82 EUR
-  Expenses:External:K-RAATUSE-18   72.82 EUR
+  Assets:SEB:2010                  -72.82 EUR
+  Expenses:External:KÜ-RAATUSE-18   72.82 EUR
 
 2020-08-13 * "OÜ PLAYTECH ESTONIA" "Puhkusetasu" ^seb-RO2744122618
   Assets:SEB:2010   1331.71 EUR
@@ -1919,8 +1919,8 @@
   Expenses:External:REILENT-MARTIN   43.45 EUR
 
 2020-10-09 * "OÜ PLAYTECH ESTONIA" "Kalade programm 10/2020" ^seb-RO2778568188
-  Assets:SEB:2010                      161.54 EUR
-  Income:External:O-PLAYTECH-ESTONIA  -161.54 EUR
+  Assets:SEB:2010                       161.54 EUR
+  Income:External:OÜ-PLAYTECH-ESTONIA  -161.54 EUR
 
 2020-10-10 * "My Fitness AS" "Arve 20374706 tasumine" ^seb-RO2778980358
   Assets:SEB:2010                  -30.00 EUR
@@ -1951,8 +1951,8 @@
   Expenses:External:PAYSERA-LT-UAB   25.00 EUR
 
 2020-10-14 * "KÜ Raatuse 18" "Arve nr 201030 tasumine" ^seb-RD203976310
-  Assets:SEB:2010                 -149.00 EUR
-  Expenses:External:K-RAATUSE-18   149.00 EUR
+  Assets:SEB:2010                  -149.00 EUR
+  Expenses:External:KÜ-RAATUSE-18   149.00 EUR
 
 2020-10-16 * "REILENT MARTIN" "Makse SEB rakendusest" ^seb-RO2783481558
   Assets:SEB:2010                   -200.00 EUR
@@ -2037,8 +2037,8 @@
   Expenses:Entertainment:Subscriptions   11.99 EUR
 
 2020-11-06 * "OÜ PLAYTECH ESTONIA" "Kalade reispassid" ^seb-RO2795459754
-  Assets:SEB:2010                      1200.00 EUR
-  Income:External:O-PLAYTECH-ESTONIA  -1200.00 EUR
+  Assets:SEB:2010                       1200.00 EUR
+  Income:External:OÜ-PLAYTECH-ESTONIA  -1200.00 EUR
 
 2020-11-07 * "REILENT MARTIN" "Digikassa kanne" ^seb-RO2795670436
   Assets:SEB:2010                   -0.01 EUR
@@ -2069,18 +2069,18 @@
   Expenses:Utilities   1.00 EUR
 
 2020-11-14 * "KÜ Raatuse 18" "Arve nr 201130 tasumine" ^seb-RD205362486
-  Assets:SEB:2010                 -91.48 EUR
-  Expenses:External:K-RAATUSE-18   91.48 EUR
+  Assets:SEB:2010                  -91.48 EUR
+  Expenses:External:KÜ-RAATUSE-18   91.48 EUR
 
-2020-11-16 open Expenses:External:COMMERCE-TRADING-O            EUR
+2020-11-16 open Expenses:External:COMMERCE-TRADING-OÜ           EUR
 
 2020-11-16 * "Veikko Kalmus" "Kana" ^seb-RD205428777
   Assets:SEB:2010                  -8.00 EUR
   Expenses:External:VEIKKO-KALMUS   8.00 EUR
 
 2020-11-16 * "COMMERCE TRADING OÜ" "ME-1482142" ^seb-RO2800924061
-  Assets:SEB:2010                       -14.80 EUR
-  Expenses:External:COMMERCE-TRADING-O   14.80 EUR
+  Assets:SEB:2010                        -14.80 EUR
+  Expenses:External:COMMERCE-TRADING-OÜ   14.80 EUR
 
 2020-11-19 * "PAYSERA LT UAB" "R412842764 Order 38338483 https://latinpassion.ee" ^seb-RO2803805112
   Assets:SEB:2010                   -25.00 EUR
@@ -2195,8 +2195,8 @@
   Expenses:External:REILENT-MARTIN   1000.00 EUR
 
 2020-12-09 * "OÜ PLAYTECH ESTONIA" "Kalade programm 12/2020" ^seb-RO2815722792
-  Assets:SEB:2010                      108.46 EUR
-  Income:External:O-PLAYTECH-ESTONIA  -108.46 EUR
+  Assets:SEB:2010                       108.46 EUR
+  Income:External:OÜ-PLAYTECH-ESTONIA  -108.46 EUR
 
 2020-12-10 * "My Fitness AS" "Arve 20436973 tasumine" ^seb-RO2816016747
   Assets:SEB:2010                  -30.00 EUR
@@ -2219,8 +2219,8 @@
   Expenses:Utilities   1.00 EUR
 
 2020-12-13 * "KÜ Raatuse 18" "Arve nr 201230 tasumine" ^seb-RD206687056
-  Assets:SEB:2010                 -108.55 EUR
-  Expenses:External:K-RAATUSE-18   108.55 EUR
+  Assets:SEB:2010                  -108.55 EUR
+  Expenses:External:KÜ-RAATUSE-18   108.55 EUR
 
 2020-12-13 * "REILENT MARTIN" "Makse SEB rakendusest" ^seb-RO2817867245
   Assets:SEB:2010                   -200.00 EUR
