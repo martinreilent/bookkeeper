@@ -15,6 +15,8 @@ from beancount.core import data
 from beancount.core import flags
 from beancount.core.number import D
 
+from .account_mapper import AccountMapper
+
 log = utils.logger(verbosity=1, err=True)
 
 
@@ -24,6 +26,7 @@ class SebBankCSVImporter(beangulp.Importer):
     def __init__(self, account_prefix, create_new_accounts=True):
         self.account_prefix = account_prefix  # e.g., "Assets:EE:SEB"
         self.create_new_accounts = create_new_accounts  # Whether to create new accounts for unique postings
+        self.account_mapper = AccountMapper(bank_name="SEB")
 
     def identify(self, filepath):
         mimetype, encoding = mimetypes.guess_type(filepath)
@@ -213,75 +216,13 @@ class SebBankCSVImporter(beangulp.Importer):
     def _get_counterparty_account(self, row):
         """Determine the appropriate counterparty account based on transaction details."""
         
-        # Check if there's a specific counterparty account
-        counterparty_account_str = row.get('Saaja/maksja konto', '').strip('"')
-        payee = row.get('Saaja/maksja nimi', '').strip('"')
-        explanation = row.get('Selgitus', '').strip('"').lower()
-        txn_type = row.get('Tüüp', '').strip('"')
-        debit_credit = row.get('Deebet/Kreedit (D/C)', '').strip('"')
-        
-        # Bank fees and charges (but not interest income)
-        if (payee == 'SEB' or 'teenustasu' in explanation or 'intressi tulumaks' in explanation) and 'intresside väljamaks' not in explanation:
-            return "Expenses:Bank:Fees"
-        
-        # Interest income
-        if 'intresside väljamaks' in explanation:
-            return "Income:Interest"
-        
-        # Card transactions - try to categorize
-        if 'kaart' in explanation:
-            if any(keyword in explanation for keyword in ['selver', 'kiosk', 'rimi', 'maxima']):
-                return "Expenses:Food:Groceries"
-            elif any(keyword in explanation for keyword in ['circle k', 'neste', 'alexela']):
-                return "Expenses:Transportation:Fuel"
-            elif any(keyword in explanation for keyword in ['takko', 'h&m', 'reserved']):
-                return "Expenses:Clothing"
-            elif any(keyword in explanation for keyword in ['netflix', 'apple', 'spotify']):
-                return "Expenses:Entertainment:Subscriptions"
-            elif any(keyword in explanation for keyword in ['hotell', 'hotel']):
-                return "Expenses:Travel:Accommodation"
-            else:
-                return "Expenses:Unknown"
-        
-        # Salary or known income sources
-        if any(keyword in explanation for keyword in ['puhkusetasu', 'palk', 'töötasu']):
-            return "Income:Salary"
-        
-        # Utilities
-        if any(keyword in payee.lower() for keyword in ['eesti energia', 'telia', 'elion']):
-            return "Expenses:Utilities"
-        
-        # Insurance
-        if 'kindlustus' in explanation.lower() or 'kindlustus' in payee.lower() or 'poliis' in explanation.lower():
-            return "Expenses:Insurance"
-        
-        # Loan payments
-        if txn_type == 'L' or 'lep.' in explanation:
-            return "Liabilities:Loan"
-        
-         # Donations
-        if any(keyword in explanation.lower() for keyword in ['annetus', 'annetamine']):
-            return "Expenses:Charity"
-        
-
-        
-
-        # Transfers to/from known accounts
-        if counterparty_account_str and counterparty_account_str.startswith('EE'):
-            clean_payee = re.sub(r'[^A-Za-z0-9]', '', payee.upper()) if payee else "Unknown"
-            
-            if debit_credit == 'D':
-                # Debit means money going out, so it's a transfer from this account
-                return f"Expenses:External:{clean_payee}"
-            else:
-                # Credit means money coming in, so it's a transfer to this account
-                return f"Income:External:{clean_payee}"
-        
-        # Default to unknown expenses for debits, unknown income for credits
-        if debit_credit == 'D':
-            return "Expenses:Unknown"
-        else:
-            return "Income:Unknown"
+        return self.account_mapper.get_counterparty_account(
+            payee=row.get('Saaja/maksja nimi', '').strip('"'),
+            explanation=row.get('Selgitus', '').strip('"'),
+            txn_type=row.get('Tüüp', '').strip('"'),
+            debit_credit=row.get('Deebet/Kreedit (D/C)', '').strip('"'),
+            counterparty_account_str=row.get('Saaja/maksja konto', '').strip('"')
+        )
     
 
 
