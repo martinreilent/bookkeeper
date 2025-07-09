@@ -175,7 +175,12 @@ class AccountMapper:
     
     def _get_external_transfer_account(self, payee: str, debit_credit: str) -> str:
         """Get account for external transfers."""
-        clean_payee = re.sub(r'[^A-Za-z0-9]', '', payee.upper()) if payee else "Unknown"
+        if payee:
+            # First replace spaces with hyphens, then remove other non-alphanumeric characters except hyphens
+            clean_payee = re.sub(r'\s+', '-', payee.strip())  # Replace spaces with hyphens
+            clean_payee = re.sub(r'[^A-Za-z0-9-]', '', clean_payee.upper())  # Remove other special chars but keep hyphens
+        else:
+            clean_payee = "Unknown"
         
         if debit_credit == 'D':
             # Debit means money going out, so it's a transfer from this account

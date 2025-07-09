@@ -1,12 +1,12 @@
 ;; -*- mode: beancount -*-
 
-**** /home/martin/dev/bookkeeper/examples/Assets/SEB/2010/2020-12-31.seb.kontovv(2).csv
+**** /home/martin/dev/bookkeeper/examples/Downloads2/kontovv_3.csv
 
 2020-01-01 open Assets:SEB:2010                                 EUR
 
 2020-01-01 open Expenses:Bank:Fees                              EUR
 
-2020-01-01 open Expenses:External:REILENTMARTIN                 EUR
+2020-01-01 open Expenses:External:REILENT-MARTIN                EUR
 
 2020-01-01 open Income:Interest                                 EUR
 
@@ -15,8 +15,8 @@
   Expenses:Bank:Fees   0.01 EUR
 
 2020-01-01 * "REILENT MARTIN" "Digikassa kanne" ^seb-RO2608076442
-  Assets:SEB:2010                  -0.15 EUR
-  Expenses:External:REILENTMARTIN   0.15 EUR
+  Assets:SEB:2010                   -0.15 EUR
+  Expenses:External:REILENT-MARTIN   0.15 EUR
 
 2020-01-01 * "SEB" "30/12/2019 18:00 kaart...549860 R-KIOSK TARTU KUUNI 16 #064825" ^seb-RO2607786132
   Assets:SEB:2010     -7.90 EUR
@@ -26,17 +26,15 @@
   Assets:SEB:2010   0.05 EUR
   Income:Interest  -0.05 EUR
 
-2020-01-02 open Expenses:Insurance                              EUR
-
 2020-01-02 open Liabilities:Loan                                EUR
 
-2020-01-02 open Income:External:PAJUMARKO                       EUR
+2020-01-02 open Income:External:PAJU-MARKO                      EUR
 
 2020-01-02 open Income:Salary                                   EUR
 
 2020-01-02 * "REILENT MARTIN" "Digikassa kanne" ^seb-RO2608314332
-  Assets:SEB:2010                  -0.10 EUR
-  Expenses:External:REILENTMARTIN   0.10 EUR
+  Assets:SEB:2010                   -0.10 EUR
+  Expenses:External:REILENT-MARTIN   0.10 EUR
 
 2020-01-02 * "SEB" "31/12/2019 15:10 kaart...679766 JAAMAMOISA SELVER #554614" ^seb-RO2608441317
   Assets:SEB:2010     -3.99 EUR
@@ -44,7 +42,7 @@
 
 2020-01-02 * "AS SEB Elu- ja Pensionikindlustus" "SEB laenukaitse kindlustuse maksekorraldus" ^seb-RO2608772713
   Assets:SEB:2010     -19.22 EUR
-  Expenses:Insurance   19.22 EUR
+  Expenses:Bank:Fees   19.22 EUR
 
 2020-01-02 * "SEB" "31/12/2019 15:08 kaart...679766 Ilutulestiku Keskus Ar #554510" ^seb-RO2608506520
   Assets:SEB:2010     -25.35 EUR
@@ -63,20 +61,22 @@
   Liabilities:Loan   159.29 EUR
 
 2020-01-02 * "REILENT MARTIN" "Kogumishoiuse deponeerimine" ^seb-RO2608840679
-  Assets:SEB:2010                  -225.11 EUR
-  Expenses:External:REILENTMARTIN   225.11 EUR
+  Assets:SEB:2010                   -225.11 EUR
+  Expenses:External:REILENT-MARTIN   225.11 EUR
 
 2020-01-02 * "PAJU MARKO" "Soovin makset" ^seb-RO2608669426
-  Assets:SEB:2010             11.50 EUR
-  Income:External:PAJUMARKO  -11.50 EUR
+  Assets:SEB:2010              11.50 EUR
+  Income:External:PAJU-MARKO  -11.50 EUR
 
 2020-01-02 * "OÜ PLAYTECH ESTONIA" "Puhkusetasu" ^seb-RO2608778683
   Assets:SEB:2010   583.66 EUR
   Income:Salary    -583.66 EUR
 
+2020-01-03 open Expenses:Insurance                              EUR
+
 2020-01-03 * "REILENT MARTIN" "Digikassa kanne" ^seb-RO2608965857
-  Assets:SEB:2010                  -0.66 EUR
-  Expenses:External:REILENTMARTIN   0.66 EUR
+  Assets:SEB:2010                   -0.66 EUR
+  Expenses:External:REILENT-MARTIN   0.66 EUR
 
 2020-01-03 * "SEB" "01/01/2020 12:44 kaart...679766 Villa Wesset Hotell #145889" ^seb-RO2609072412
   Assets:SEB:2010     -2.50 EUR
@@ -99,8 +99,8 @@
   Expenses:Bank:Fees   0.40 EUR
 
 2020-01-04 * "REILENT MARTIN" "Digikassa kanne" ^seb-RO2610004016
-  Assets:SEB:2010                  -0.51 EUR
-  Expenses:External:REILENTMARTIN   0.51 EUR
+  Assets:SEB:2010                   -0.51 EUR
+  Expenses:External:REILENT-MARTIN   0.51 EUR
 
 2020-01-04 * "SEB" "02/01/2020 19:26 kaart...549860 Reserved Tasku kauba #269998" ^seb-RO2609961716
   Assets:SEB:2010     -10.98 EUR
@@ -115,8 +115,8 @@
 2020-01-05 open Expenses:Utilities                              EUR
 
 2020-01-05 * "REILENT MARTIN" "Digikassa kanne" ^seb-RO2610224355
-  Assets:SEB:2010                  -0.03 EUR
-  Expenses:External:REILENTMARTIN   0.03 EUR
+  Assets:SEB:2010                   -0.03 EUR
+  Expenses:External:REILENT-MARTIN   0.03 EUR
 
 2020-01-05 * "SEB" "03/01/2020 09:43 kaart...549860 R-KIOSK TARTU KUUNI 16 #335030" ^seb-RO2610284203
   Assets:SEB:2010     -7.90 EUR
@@ -131,8 +131,8 @@
   Expenses:Utilities   18.57 EUR
 
 2020-01-06 * "REILENT MARTIN" "Digikassa kanne" ^seb-RO2610699366
-  Assets:SEB:2010                  -0.10 EUR
-  Expenses:External:REILENTMARTIN   0.10 EUR
+  Assets:SEB:2010                   -0.10 EUR
+  Expenses:External:REILENT-MARTIN   0.10 EUR
 
 2020-01-06 * "SEB" "Teenustasu | (TT)" ^seb-RO2611018616
   Assets:SEB:2010     -1.14 EUR
@@ -175,22 +175,22 @@
   Expenses:Bank:Fees   57.12 EUR
 
 2020-01-07 * "REILENT MARTIN" "Digikassa kanne" ^seb-RO2611635778
-  Assets:SEB:2010                  -1.41 EUR
-  Expenses:External:REILENTMARTIN   1.41 EUR
+  Assets:SEB:2010                   -1.41 EUR
+  Expenses:External:REILENT-MARTIN   1.41 EUR
 
 2020-01-09 * "SEB" "08/01/2020 00:00 2000.00 EGP(112.62 EUR + TT 1.69 EUR(1.5%)) kaart...679766 HATSHEPSOUT BAZAAR/LUXOR 16A/EG #855508" ^seb-RO2613742044
   Assets:SEB:2010     -114.31 EUR
   Expenses:Bank:Fees   114.31 EUR
 
-2020-01-10 open Expenses:External:MYFITNESSAS                   EUR
+2020-01-10 open Expenses:External:MY-FITNESS-AS                 EUR
 
 2020-01-10 * "REILENT MARTIN" "Digikassa kanne" ^seb-RO2613994715
-  Assets:SEB:2010                  -0.69 EUR
-  Expenses:External:REILENTMARTIN   0.69 EUR
+  Assets:SEB:2010                   -0.69 EUR
+  Expenses:External:REILENT-MARTIN   0.69 EUR
 
 2020-01-10 * "My Fitness AS" "Arve 20114554 tasumine" ^seb-RO2614230704
-  Assets:SEB:2010                -30.00 EUR
-  Expenses:External:MYFITNESSAS   30.00 EUR
+  Assets:SEB:2010                  -30.00 EUR
+  Expenses:External:MY-FITNESS-AS   30.00 EUR
 
 2020-01-10 * "Telia Eesti AS" "e-arve 01202000191796" ^seb-RO2614238669
   Assets:SEB:2010     -31.00 EUR
@@ -200,25 +200,25 @@
   Assets:SEB:2010     -132.21 EUR
   Expenses:Bank:Fees   132.21 EUR
 
-2020-01-11 open Expenses:External:NIKOLAJEVALEKSANDR            EUR
+2020-01-11 open Expenses:External:NIKOLAJEV-ALEKSANDR           EUR
 
 2020-01-11 * "REILENT MARTIN" "Digikassa kanne" ^seb-RO2614907681
-  Assets:SEB:2010                  -0.79 EUR
-  Expenses:External:REILENTMARTIN   0.79 EUR
+  Assets:SEB:2010                   -0.79 EUR
+  Expenses:External:REILENT-MARTIN   0.79 EUR
 
 2020-01-11 * "NIKOLAJEV ALEKSANDR" "garaas" ^seb-RO2615251086
-  Assets:SEB:2010                       -40.00 EUR
-  Expenses:External:NIKOLAJEVALEKSANDR   40.00 EUR
+  Assets:SEB:2010                        -40.00 EUR
+  Expenses:External:NIKOLAJEV-ALEKSANDR   40.00 EUR
 
 2020-01-11 * "IIZI KINDLUSTUSMAAKLER AS" "915BRS pakkumine nr.45180341259" ^seb-RO2615252153
   Assets:SEB:2010     -58.72 EUR
   Expenses:Insurance   58.72 EUR
 
-2020-01-12 open Expenses:External:KRAATUSE18                    EUR
+2020-01-12 open Expenses:External:K-RAATUSE-18                  EUR
 
 2020-01-12 * "KÜ Raatuse 18" "Arve nr 200130 tasumine" ^seb-RD192552392
-  Assets:SEB:2010               -112.28 EUR
-  Expenses:External:KRAATUSE18   112.28 EUR
+  Assets:SEB:2010                 -112.28 EUR
+  Expenses:External:K-RAATUSE-18   112.28 EUR
 
 2020-01-13 * "Telia Eesti AS" "Telia mobiilsete teenuste arve B19121734769" ^seb-RO2616101039
   Assets:SEB:2010     -1.00 EUR
@@ -229,24 +229,24 @@
   Expenses:Bank:Fees   12.08 EUR
 
 2020-01-14 * "REILENT MARTIN" "Digikassa kanne" ^seb-RO2616756716
-  Assets:SEB:2010                  -0.92 EUR
-  Expenses:External:REILENTMARTIN   0.92 EUR
+  Assets:SEB:2010                   -0.92 EUR
+  Expenses:External:REILENT-MARTIN   0.92 EUR
 
 2020-01-18 * "REILENT MARTIN" "Makse SEB rakendusest" ^seb-RO2619747251
-  Assets:SEB:2010                  -50.00 EUR
-  Expenses:External:REILENTMARTIN   50.00 EUR
+  Assets:SEB:2010                   -50.00 EUR
+  Expenses:External:REILENT-MARTIN   50.00 EUR
 
 2020-01-20 * "NIKOLAJEV ALEKSANDR" "Makse SEB rakendusest" ^seb-RO2620980714
-  Assets:SEB:2010                       -8.00 EUR
-  Expenses:External:NIKOLAJEVALEKSANDR   8.00 EUR
+  Assets:SEB:2010                        -8.00 EUR
+  Expenses:External:NIKOLAJEV-ALEKSANDR   8.00 EUR
 
 2020-01-24 * "REILENT MARTIN" "Makse SEB rakendusest" ^seb-RO2623189079
-  Assets:SEB:2010                  -50.00 EUR
-  Expenses:External:REILENTMARTIN   50.00 EUR
+  Assets:SEB:2010                   -50.00 EUR
+  Expenses:External:REILENT-MARTIN   50.00 EUR
 
 2020-01-25 * "REILENT MARTIN" "Makse SEB rakendusest" ^seb-RO2623531616
-  Assets:SEB:2010                  -150.00 EUR
-  Expenses:External:REILENTMARTIN   150.00 EUR
+  Assets:SEB:2010                   -150.00 EUR
+  Expenses:External:REILENT-MARTIN   150.00 EUR
 
 2020-01-27 * "SEB" "25/01/2020 20:33 kaart...549860 LOKAAL PIROGOV/TARTU/EST #574035" ^seb-RO2624507277
   Assets:SEB:2010     -4.40 EUR
@@ -281,8 +281,8 @@
   Expenses:Bank:Fees   1.00 EUR
 
 2020-01-28 * "REILENT MARTIN" "Digikassa kanne" ^seb-RO2624916104
-  Assets:SEB:2010                  -1.30 EUR
-  Expenses:External:REILENTMARTIN   1.30 EUR
+  Assets:SEB:2010                   -1.30 EUR
+  Expenses:External:REILENT-MARTIN   1.30 EUR
 
 2020-01-28 * "SEB" "26/01/2020 01:26 kaart...549860 Metro voileivakohvik #605166" ^seb-RO2624975520
   Assets:SEB:2010     -4.30 EUR
@@ -296,35 +296,35 @@
   Assets:SEB:2010     -24.00 EUR
   Expenses:Bank:Fees   24.00 EUR
 
-2020-01-29 open Expenses:External:TOLKMEELIS                    EUR
+2020-01-29 open Expenses:External:TOLK-MEELIS                   EUR
 
 2020-01-29 * "REILENT MARTIN" "Digikassa kanne" ^seb-RO2625314266
-  Assets:SEB:2010                  -1.52 EUR
-  Expenses:External:REILENTMARTIN   1.52 EUR
+  Assets:SEB:2010                   -1.52 EUR
+  Expenses:External:REILENT-MARTIN   1.52 EUR
 
 2020-01-29 * "TOLK MEELIS" "Makse SEB rakendusest" ^seb-RO2625722021
-  Assets:SEB:2010               -12.50 EUR
-  Expenses:External:TOLKMEELIS   12.50 EUR
+  Assets:SEB:2010                -12.50 EUR
+  Expenses:External:TOLK-MEELIS   12.50 EUR
 
 2020-01-29 * "OÜ PLAYTECH ESTONIA" "Puhkusetasu" ^seb-RO2625593559
   Assets:SEB:2010   405.49 EUR
   Income:Salary    -405.49 EUR
 
-2020-01-31 open Expenses:External:POLETUKERKKI                  EUR
+2020-01-31 open Expenses:External:POLETUK-ERKKI                 EUR
 
 2020-01-31 open Expenses:Unknown                                EUR
 
 2020-01-31 * "POLEŠTŠUK ERKKI" "Makse SEB rakendusest" ^seb-RO2626722531
-  Assets:SEB:2010                 -7.56 EUR
-  Expenses:External:POLETUKERKKI   7.56 EUR
+  Assets:SEB:2010                  -7.56 EUR
+  Expenses:External:POLETUK-ERKKI   7.56 EUR
 
 2020-01-31 * "VÄLJAMAKSE 31/01/2020 11:27 kaart...9860 EYP00817 Ülikooli 2#423769 | (SR)" ^seb-RO2626708200
   Assets:SEB:2010   -20.00 EUR
   Expenses:Unknown   20.00 EUR
 
 2020-01-31 * "REILENT MARTIN" "Kogumishoiuse deponeerimine" ^seb-RO2626911134
-  Assets:SEB:2010                  -1284.59 EUR
-  Expenses:External:REILENTMARTIN   1284.59 EUR
+  Assets:SEB:2010                   -1284.59 EUR
+  Expenses:External:REILENT-MARTIN   1284.59 EUR
 
 2020-01-31 * "OÜ PLAYTECH ESTONIA" "Palk" ^seb-RO2626779069
   Assets:SEB:2010   1984.43 EUR
@@ -335,12 +335,12 @@
   Expenses:Insurance   7.70 EUR
 
 2020-02-03 * "NIKOLAJEV ALEKSANDR" "Makse SEB rakendusest" ^seb-RO2628459540
-  Assets:SEB:2010                       -8.50 EUR
-  Expenses:External:NIKOLAJEVALEKSANDR   8.50 EUR
+  Assets:SEB:2010                        -8.50 EUR
+  Expenses:External:NIKOLAJEV-ALEKSANDR   8.50 EUR
 
 2020-02-03 * "SEB Life and Pension Baltic SE Eesti filiaal" "SEB laenukaitse kindlustuse maksekorraldus" ^seb-RO2628323427
   Assets:SEB:2010     -19.95 EUR
-  Expenses:Insurance   19.95 EUR
+  Expenses:Bank:Fees   19.95 EUR
 
 2020-02-03 * "Lep. 2015026274/intress/L150011342 | (L)" ^seb-RO2627738298
   Assets:SEB:2010   -130.65 EUR
@@ -350,7 +350,7 @@
   Assets:SEB:2010   -155.51 EUR
   Liabilities:Loan   155.51 EUR
 
-2020-02-05 open Expenses:External:MARTINREILENT                 EUR
+2020-02-05 open Expenses:External:MARTIN-REILENT                EUR
 
 2020-02-05 * "SEB" "05/02/2020 00:00 kaart...549860 APPLE.COM/BILL/ITUNES.COM/IRL #507559" ^seb-RO2629948294
   Assets:SEB:2010     -2.99 EUR
@@ -361,12 +361,12 @@
   Expenses:Charity   10.00 EUR
 
 2020-02-05 * "Martin Reilent" "Makse SEB rakendusest" ^seb-RD193360985
-  Assets:SEB:2010                  -200.00 EUR
-  Expenses:External:MARTINREILENT   200.00 EUR
+  Assets:SEB:2010                   -200.00 EUR
+  Expenses:External:MARTIN-REILENT   200.00 EUR
 
 2020-02-06 * "REILENT MARTIN" "Digikassa kanne" ^seb-RO2630335485
-  Assets:SEB:2010                  -0.01 EUR
-  Expenses:External:REILENTMARTIN   0.01 EUR
+  Assets:SEB:2010                   -0.01 EUR
+  Expenses:External:REILENT-MARTIN   0.01 EUR
 
 2020-02-06 * "SEB" "06/02/2020 00:00 kaart...549860 NETFLIX.COM/866-579-7172/NLD #624677" ^seb-RO2630780561
   Assets:SEB:2010     -11.99 EUR
@@ -377,8 +377,8 @@
   Expenses:Utilities   19.21 EUR
 
 2020-02-07 * "REILENT MARTIN" "Digikassa kanne" ^seb-RO2631153382
-  Assets:SEB:2010                  -0.01 EUR
-  Expenses:External:REILENTMARTIN   0.01 EUR
+  Assets:SEB:2010                   -0.01 EUR
+  Expenses:External:REILENT-MARTIN   0.01 EUR
 
 2020-02-07 * "SEB" "05/02/2020 13:11 kaart...549860 LEGEND PUB/TALLINN/EST #547496" ^seb-RO2631723667
   Assets:SEB:2010     -11.00 EUR
@@ -389,8 +389,8 @@
   Expenses:Bank:Fees   4.04 EUR
 
 2020-02-10 * "My Fitness AS" "Arve 20151363 tasumine" ^seb-RO2633403996
-  Assets:SEB:2010                -30.00 EUR
-  Expenses:External:MYFITNESSAS   30.00 EUR
+  Assets:SEB:2010                  -30.00 EUR
+  Expenses:External:MY-FITNESS-AS   30.00 EUR
 
 2020-02-10 * "SEB" "07/02/2020 21:06 147.00 PLN(34.52 EUR + TT 0.52 EUR(1.5%)) kaart...549860 JACKS BAR/LODZ/POL #779598" ^seb-RO2633619302
   Assets:SEB:2010     -35.04 EUR
@@ -401,50 +401,50 @@
   Expenses:Utilities   35.10 EUR
 
 2020-02-11 * "REILENT MARTIN" "Digikassa kanne" ^seb-RO2634345466
-  Assets:SEB:2010                  -1.92 EUR
-  Expenses:External:REILENTMARTIN   1.92 EUR
+  Assets:SEB:2010                   -1.92 EUR
+  Expenses:External:REILENT-MARTIN   1.92 EUR
 
 2020-02-11 * "SEB" "10/02/2020 19:23 kaart...549860 FOOD.BOLT.EU /D/200209/Viimsi/EST #970507" ^seb-RO2634725720
   Assets:SEB:2010     -20.00 EUR
   Expenses:Bank:Fees   20.00 EUR
 
 2020-02-11 * "NIKOLAJEV ALEKSANDR" "garaas" ^seb-RO2634818016
-  Assets:SEB:2010                       -40.00 EUR
-  Expenses:External:NIKOLAJEVALEKSANDR   40.00 EUR
+  Assets:SEB:2010                        -40.00 EUR
+  Expenses:External:NIKOLAJEV-ALEKSANDR   40.00 EUR
 
 2020-02-12 * "SEB" "08/02/2020 00:00 20.00 PLN(4.69 EUR + TT 0.07 EUR(1.5%)) kaart...679766 LOT AIRLINE/WARSZAWA/PL #907702" ^seb-RO2635381724
   Assets:SEB:2010     -4.76 EUR
   Expenses:Bank:Fees   4.76 EUR
 
 2020-02-13 * "REILENT MARTIN" "Digikassa kanne" ^seb-RO2635629220
-  Assets:SEB:2010                  -0.24 EUR
-  Expenses:External:REILENTMARTIN   0.24 EUR
+  Assets:SEB:2010                   -0.24 EUR
+  Expenses:External:REILENT-MARTIN   0.24 EUR
 
 2020-02-13 * "Telia Eesti AS" "Telia mobiilsete teenuste arve B20012106565" ^seb-RO2635885238
   Assets:SEB:2010     -1.00 EUR
   Expenses:Utilities   1.00 EUR
 
 2020-02-13 * "KÜ Raatuse 18" "Arve nr 200230 tasumine" ^seb-RD193846621
-  Assets:SEB:2010               -111.58 EUR
-  Expenses:External:KRAATUSE18   111.58 EUR
+  Assets:SEB:2010                 -111.58 EUR
+  Expenses:External:K-RAATUSE-18   111.58 EUR
 
 2020-02-13 * "SEB" "11/02/2020 19:14 kaart...679766 572 Tartu Kvartal #169284" ^seb-RO2635867620
   Assets:SEB:2010     -143.40 EUR
   Expenses:Bank:Fees   143.40 EUR
 
 2020-02-14 * "REILENT MARTIN" "Digikassa kanne" ^seb-RO2636323374
-  Assets:SEB:2010                  -0.60 EUR
-  Expenses:External:REILENTMARTIN   0.60 EUR
+  Assets:SEB:2010                   -0.60 EUR
+  Expenses:External:REILENT-MARTIN   0.60 EUR
 
-2020-02-20 open Income:External:OPLAYTECHESTONIA                EUR
+2020-02-20 open Income:External:O-PLAYTECH-ESTONIA              EUR
 
 2020-02-20 * "OÜ PLAYTECH ESTONIA" "Prillikompensatsioon" ^seb-RO2640555849
-  Assets:SEB:2010                    100.00 EUR
-  Income:External:OPLAYTECHESTONIA  -100.00 EUR
+  Assets:SEB:2010                      100.00 EUR
+  Income:External:O-PLAYTECH-ESTONIA  -100.00 EUR
 
 2020-02-23 * "REILENT MARTIN" "Makse SEB rakendusest" ^seb-RO2642016366
-  Assets:SEB:2010                  -80.00 EUR
-  Expenses:External:REILENTMARTIN   80.00 EUR
+  Assets:SEB:2010                   -80.00 EUR
+  Expenses:External:REILENT-MARTIN   80.00 EUR
 
 2020-02-24 * "SEB" "21/02/2020 00:00 kaart...679766 AIRO CATERING/TALLINN/EE #000000" ^seb-RO2642351676
   Assets:SEB:2010     -3.50 EUR
@@ -459,36 +459,36 @@
   Expenses:Bank:Fees   19.40 EUR
 
 2020-02-25 * "REILENT MARTIN" "Digikassa kanne" ^seb-RO2642794368
-  Assets:SEB:2010                  -1.10 EUR
-  Expenses:External:REILENTMARTIN   1.10 EUR
+  Assets:SEB:2010                   -1.10 EUR
+  Expenses:External:REILENT-MARTIN   1.10 EUR
 
 2020-02-26 * "SEB" "25/02/2020 22:47 kaart...549860 LOKAAL PIROGOV/TARTU/EST #582036" ^seb-RO2643567859
   Assets:SEB:2010     -8.80 EUR
   Expenses:Bank:Fees   8.80 EUR
 
-2020-02-27 open Expenses:External:LUXEXPRESSESTONIAAS           EUR
+2020-02-27 open Expenses:External:LUX-EXPRESS-ESTONIA-AS        EUR
 
 2020-02-27 * "REILENT MARTIN" "Digikassa kanne" ^seb-RO2643785082
-  Assets:SEB:2010                  -0.20 EUR
-  Expenses:External:REILENTMARTIN   0.20 EUR
+  Assets:SEB:2010                   -0.20 EUR
+  Expenses:External:REILENT-MARTIN   0.20 EUR
 
 2020-02-27 * "LUX EXPRESS ESTONIA AS" "200227216247" ^seb-RO2644274906
-  Assets:SEB:2010                        -26.25 EUR
-  Expenses:External:LUXEXPRESSESTONIAAS   26.25 EUR
+  Assets:SEB:2010                           -26.25 EUR
+  Expenses:External:LUX-EXPRESS-ESTONIA-AS   26.25 EUR
 
-2020-02-28 open Expenses:External:RIDANGOAS                     EUR
+2020-02-28 open Expenses:External:RIDANGO-AS                    EUR
 
 2020-02-28 * "SEB" "Kaardi ...679766 hooldustasu kuus (02/2020) | (TT)" ^seb-RO2644366645
   Assets:SEB:2010     -1.00 EUR
   Expenses:Bank:Fees   1.00 EUR
 
 2020-02-28 * "RIDANGO AS" "Raha laadimine 10 EUR nr 24714936 isikule 39201282235" ^seb-RO2645044300
-  Assets:SEB:2010              -10.00 EUR
-  Expenses:External:RIDANGOAS   10.00 EUR
+  Assets:SEB:2010               -10.00 EUR
+  Expenses:External:RIDANGO-AS   10.00 EUR
 
 2020-02-28 * "REILENT MARTIN" "Kogumishoiuse deponeerimine" ^seb-RO2645062882
-  Assets:SEB:2010                  -1081.10 EUR
-  Expenses:External:REILENTMARTIN   1081.10 EUR
+  Assets:SEB:2010                   -1081.10 EUR
+  Expenses:External:REILENT-MARTIN   1081.10 EUR
 
 2020-02-28 * "OÜ PLAYTECH ESTONIA" "Palk" ^seb-RO2644890591
   Assets:SEB:2010   2162.61 EUR
@@ -499,22 +499,22 @@
   Expenses:Bank:Fees   8.06 EUR
 
 2020-02-29 * "REILENT MARTIN" "Teise panka" ^seb-RD194397664
-  Assets:SEB:2010                  -50.00 EUR
-  Expenses:External:REILENTMARTIN   50.00 EUR
+  Assets:SEB:2010                   -50.00 EUR
+  Expenses:External:REILENT-MARTIN   50.00 EUR
 
-2020-03-01 open Expenses:External:PAYSERALTUAB                  EUR
+2020-03-01 open Expenses:External:PAYSERA-LT-UAB                EUR
 
 2020-03-01 * "REILENT MARTIN" "Digikassa kanne" ^seb-RO2645551494
-  Assets:SEB:2010                  -0.94 EUR
-  Expenses:External:REILENTMARTIN   0.94 EUR
+  Assets:SEB:2010                   -0.94 EUR
+  Expenses:External:REILENT-MARTIN   0.94 EUR
 
 2020-03-01 * "SEB" "28/02/2020 12:44 kaart...549860 GMP PATISSERIE #845893" ^seb-RO2645593229
   Assets:SEB:2010     -10.00 EUR
   Expenses:Bank:Fees   10.00 EUR
 
 2020-03-01 * "PAYSERA LT UAB" "R329614214 Order 13505 https://my.latinpassion.ee (Info: https://my.latinpassion.ee/pay/WYY3K6E" ^seb-RO2645811536
-  Assets:SEB:2010                 -25.00 EUR
-  Expenses:External:PAYSERALTUAB   25.00 EUR
+  Assets:SEB:2010                   -25.00 EUR
+  Expenses:External:PAYSERA-LT-UAB   25.00 EUR
 
 2020-03-02 * "AB ''Lietuvos draudimas'' Eesti filiaal" "Poliis nr 1049428147 Arve nr 6585009" ^seb-RO2646187436
   Assets:SEB:2010     -7.70 EUR
@@ -530,7 +530,7 @@
 
 2020-03-02 * "SEB Life and Pension Baltic SE Eesti filiaal" "SEB laenukaitse kindlustuse maksekorraldus" ^seb-RO2646532081
   Assets:SEB:2010     -17.87 EUR
-  Expenses:Insurance   17.87 EUR
+  Expenses:Bank:Fees   17.87 EUR
 
 2020-03-02 * "Lep. 2015026274/intress/L150011342 | (L)" ^seb-RO2645936939
   Assets:SEB:2010   -114.06 EUR
@@ -540,19 +540,19 @@
   Assets:SEB:2010   -172.10 EUR
   Liabilities:Loan   172.10 EUR
 
-2020-03-03 open Income:External:TEPPORPATRICK                   EUR
+2020-03-03 open Income:External:TEPPOR-PATRICK                  EUR
 
 2020-03-03 * "REILENT MARTIN" "Digikassa kanne" ^seb-RO2646765967
-  Assets:SEB:2010                  -0.70 EUR
-  Expenses:External:REILENTMARTIN   0.70 EUR
+  Assets:SEB:2010                   -0.70 EUR
+  Expenses:External:REILENT-MARTIN   0.70 EUR
 
 2020-03-03 * "REILENT MARTIN" "Makse SEB rakendusest" ^seb-RO2647303165
-  Assets:SEB:2010                  -50.00 EUR
-  Expenses:External:REILENTMARTIN   50.00 EUR
+  Assets:SEB:2010                   -50.00 EUR
+  Expenses:External:REILENT-MARTIN   50.00 EUR
 
 2020-03-03 * "TEPPOR PATRICK" "metro" ^seb-RO2647311212
-  Assets:SEB:2010                 5.69 EUR
-  Income:External:TEPPORPATRICK  -5.69 EUR
+  Assets:SEB:2010                  5.69 EUR
+  Income:External:TEPPOR-PATRICK  -5.69 EUR
 
 2020-03-05 * "SEB" "05/03/2020 00:00 kaart...549860 APPLE.COM/BILL/ITUNES.COM/IRL #507515" ^seb-RO2649074167
   Assets:SEB:2010     -2.99 EUR
@@ -563,8 +563,8 @@
   Expenses:Charity   10.00 EUR
 
 2020-03-06 * "REILENT MARTIN" "Digikassa kanne" ^seb-RO2649458061
-  Assets:SEB:2010                  -0.01 EUR
-  Expenses:External:REILENTMARTIN   0.01 EUR
+  Assets:SEB:2010                   -0.01 EUR
+  Expenses:External:REILENT-MARTIN   0.01 EUR
 
 2020-03-06 * "SEB" "06/03/2020 00:00 kaart...549860 NETFLIX.COM/866-579-7172/NLD #623880" ^seb-RO2649942789
   Assets:SEB:2010     -11.99 EUR
@@ -575,88 +575,88 @@
   Expenses:Utilities   19.95 EUR
 
 2020-03-07 * "REILENT MARTIN" "Digikassa kanne" ^seb-RO2650298230
-  Assets:SEB:2010                  -0.01 EUR
-  Expenses:External:REILENTMARTIN   0.01 EUR
+  Assets:SEB:2010                   -0.01 EUR
+  Expenses:External:REILENT-MARTIN   0.01 EUR
 
-2020-03-09 open Expenses:External:TEPPORPATRICK                 EUR
+2020-03-09 open Expenses:External:TEPPOR-PATRICK                EUR
 
 2020-03-09 * "TEPPOR PATRICK" "Metro" ^seb-RO2652244358
-  Assets:SEB:2010                  -5.30 EUR
-  Expenses:External:TEPPORPATRICK   5.30 EUR
+  Assets:SEB:2010                   -5.30 EUR
+  Expenses:External:TEPPOR-PATRICK   5.30 EUR
 
 2020-03-09 * "NIKOLAJEV ALEKSANDR" "Soovin makset garaas" ^seb-RO2652244019
-  Assets:SEB:2010                       -40.00 EUR
-  Expenses:External:NIKOLAJEVALEKSANDR   40.00 EUR
+  Assets:SEB:2010                        -40.00 EUR
+  Expenses:External:NIKOLAJEV-ALEKSANDR   40.00 EUR
 
 2020-03-09 * "OÜ PLAYTECH ESTONIA" "Kalade programm 03/2020" ^seb-RO2652006747
-  Assets:SEB:2010                    43.40 EUR
-  Income:External:OPLAYTECHESTONIA  -43.40 EUR
+  Assets:SEB:2010                      43.40 EUR
+  Income:External:O-PLAYTECH-ESTONIA  -43.40 EUR
 
 2020-03-10 * "My Fitness AS" "Arve 20191596 tasumine" ^seb-RO2652705713
-  Assets:SEB:2010                -30.00 EUR
-  Expenses:External:MYFITNESSAS   30.00 EUR
+  Assets:SEB:2010                  -30.00 EUR
+  Expenses:External:MY-FITNESS-AS   30.00 EUR
 
 2020-03-10 * "Telia Eesti AS" "e-arve 03202001137821" ^seb-RO2652721887
   Assets:SEB:2010     -38.00 EUR
   Expenses:Utilities   38.00 EUR
 
-2020-03-11 open Income:External:VENDJANNO                       EUR
+2020-03-11 open Income:External:VEND-JANNO                      EUR
 
-2020-03-11 open Income:External:PRAAKLIMARKO                    EUR
+2020-03-11 open Income:External:PRAAKLI-MARKO                   EUR
 
 2020-03-11 * "VEND JANNO" "Soovin makset" ^seb-RO2653863024
-  Assets:SEB:2010             4.77 EUR
-  Income:External:VENDJANNO  -4.77 EUR
+  Assets:SEB:2010              4.77 EUR
+  Income:External:VEND-JANNO  -4.77 EUR
 
 2020-03-11 * "PRAAKLI MARKO" "Soovin makset" ^seb-RO2653876727
-  Assets:SEB:2010                4.77 EUR
-  Income:External:PRAAKLIMARKO  -4.77 EUR
+  Assets:SEB:2010                 4.77 EUR
+  Income:External:PRAAKLI-MARKO  -4.77 EUR
 
 2020-03-13 * "Telia Eesti AS" "Telia mobiilsete teenuste arve B20022478500" ^seb-RO2655163792
   Assets:SEB:2010     -1.00 EUR
   Expenses:Utilities   1.00 EUR
 
 2020-03-13 * "REILENT MARTIN" "Makse SEB rakendusest" ^seb-RO2655511866
-  Assets:SEB:2010                  -100.00 EUR
-  Expenses:External:REILENTMARTIN   100.00 EUR
+  Assets:SEB:2010                   -100.00 EUR
+  Expenses:External:REILENT-MARTIN   100.00 EUR
 
 2020-03-13 * "KÜ Raatuse 18" "Arve nr 200330 tasumine" ^seb-RD195087861
-  Assets:SEB:2010               -117.79 EUR
-  Expenses:External:KRAATUSE18   117.79 EUR
+  Assets:SEB:2010                 -117.79 EUR
+  Expenses:External:K-RAATUSE-18   117.79 EUR
 
 2020-03-16 * "SEB" "14/03/2020 22:20 kaart...549860 BOLT.EU /O/2003142312/Tallinn/EST #484007" ^seb-RO2657126859
   Assets:SEB:2010     -3.70 EUR
   Expenses:Bank:Fees   3.70 EUR
 
-2020-03-17 open Income:External:REILENTMARTIN                   EUR
+2020-03-17 open Income:External:REILENT-MARTIN                  EUR
 
 2020-03-17 * "REILENT MARTIN" "Digikassa kanne" ^seb-RO2657477548
-  Assets:SEB:2010                  -0.30 EUR
-  Expenses:External:REILENTMARTIN   0.30 EUR
+  Assets:SEB:2010                   -0.30 EUR
+  Expenses:External:REILENT-MARTIN   0.30 EUR
 
 2020-03-17 * "MARTIN REILENT" "Makse investeerimiskontole" ^seb-RD195232721
-  Assets:SEB:2010                  -2500.00 EUR
-  Expenses:External:MARTINREILENT   2500.00 EUR
+  Assets:SEB:2010                   -2500.00 EUR
+  Expenses:External:MARTIN-REILENT   2500.00 EUR
 
 2020-03-17 * "REILENT MARTIN" "Väljamakse kogumishoiuselt" ^seb-RO2657573988
-  Assets:SEB:2010                 2500.00 EUR
-  Income:External:REILENTMARTIN  -2500.00 EUR
+  Assets:SEB:2010                  2500.00 EUR
+  Income:External:REILENT-MARTIN  -2500.00 EUR
 
 2020-03-19 * "SEB" "16/03/2020 12:31 kaart...549860 KIVI KONSUM #645090" ^seb-RO2658550178
   Assets:SEB:2010     -74.45 EUR
   Expenses:Bank:Fees   74.45 EUR
 
 2020-03-20 * "REILENT MARTIN" "Digikassa kanne" ^seb-RO2659048414
-  Assets:SEB:2010                  -0.55 EUR
-  Expenses:External:REILENTMARTIN   0.55 EUR
+  Assets:SEB:2010                   -0.55 EUR
+  Expenses:External:REILENT-MARTIN   0.55 EUR
 
 2020-03-28 * "SEB" "Kaardi ...679766 hooldustasu kuus (03/2020) | (TT)" ^seb-RO2662343162
   Assets:SEB:2010     -1.00 EUR
   Expenses:Bank:Fees   1.00 EUR
 
 2020-03-31 * "REILENT MARTIN" "Makse SEB rakendusest" ^seb-RO2663968363
-  Assets:SEB:2010                  -125.00 EUR
-  Expenses:External:REILENTMARTIN   125.00 EUR
+  Assets:SEB:2010                   -125.00 EUR
+  Expenses:External:REILENT-MARTIN   125.00 EUR
 
 2020-03-31 * "OÜ PLAYTECH ESTONIA" "Palk" ^seb-RO2663872351
   Assets:SEB:2010   6038.50 EUR
@@ -664,7 +664,7 @@
 
 2020-04-01 open Expenses:External:RAHANDUSMINISTEERIUM          EUR
 
-2020-04-01 open Expenses:External:MARTCHO                       EUR
+2020-04-01 open Expenses:External:MARTCH-O                      EUR
 
 2020-04-01 * "SEB" "30/03/2020 13:15 kaart...549860 RESTORAN MUNCHEN #047770" ^seb-RO2664054255
   Assets:SEB:2010     -18.80 EUR
@@ -679,12 +679,12 @@
   Expenses:External:RAHANDUSMINISTEERIUM   190.00 EUR
 
 2020-04-01 * "Martch OÜ" "Osakapitali sissemakse" ^seb-RD195678487
-  Assets:SEB:2010            -2500.00 EUR
-  Expenses:External:MARTCHO   2500.00 EUR
+  Assets:SEB:2010             -2500.00 EUR
+  Expenses:External:MARTCH-O   2500.00 EUR
 
 2020-04-02 * "REILENT MARTIN" "Digikassa kanne" ^seb-RO2664553417
-  Assets:SEB:2010                  -0.20 EUR
-  Expenses:External:REILENTMARTIN   0.20 EUR
+  Assets:SEB:2010                   -0.20 EUR
+  Expenses:External:REILENT-MARTIN   0.20 EUR
 
 2020-04-02 * "AB ''Lietuvos draudimas'' Eesti filiaal" "Poliis nr 1049428147 Arve nr 6749852" ^seb-RO2664667172
   Assets:SEB:2010     -7.70 EUR
@@ -692,7 +692,7 @@
 
 2020-04-02 * "SEB Life and Pension Baltic SE Eesti filiaal" "SEB laenukaitse kindlustuse maksekorraldus" ^seb-RO2664859555
   Assets:SEB:2010     -19.73 EUR
-  Expenses:Insurance   19.73 EUR
+  Expenses:Bank:Fees   19.73 EUR
 
 2020-04-02 * "Lep. 2015026274/intress/L150011342 | (L)" ^seb-RO2664510866
   Assets:SEB:2010   -125.96 EUR
@@ -702,11 +702,11 @@
   Assets:SEB:2010   -160.20 EUR
   Liabilities:Loan   160.20 EUR
 
-2020-04-04 open Expenses:External:ELISAEESTIAS                  EUR
+2020-04-04 open Expenses:External:ELISA-EESTI-AS                EUR
 
 2020-04-04 * "ELISA EESTI AS" "Makse 8694330" ^seb-RO2666079924
-  Assets:SEB:2010                 -2.00 EUR
-  Expenses:External:ELISAEESTIAS   2.00 EUR
+  Assets:SEB:2010                   -2.00 EUR
+  Expenses:External:ELISA-EESTI-AS   2.00 EUR
 
 2020-04-05 * "SOS LASTEKÜLA EESTI ÜHING MTÜ" "SOS Lasteküla annetus" ^seb-RO2666355152
   Assets:SEB:2010   -10.00 EUR
@@ -725,24 +725,24 @@
   Expenses:Utilities   31.31 EUR
 
 2020-04-07 * "REILENT MARTIN" "Digikassa kanne" ^seb-RO2667440148
-  Assets:SEB:2010                  -0.02 EUR
-  Expenses:External:REILENTMARTIN   0.02 EUR
+  Assets:SEB:2010                   -0.02 EUR
+  Expenses:External:REILENT-MARTIN   0.02 EUR
 
 2020-04-07 * "OÜ PLAYTECH ESTONIA" "Kalade programm 04/2020" ^seb-RO2667782956
-  Assets:SEB:2010                    123.19 EUR
-  Income:External:OPLAYTECHESTONIA  -123.19 EUR
+  Assets:SEB:2010                      123.19 EUR
+  Income:External:O-PLAYTECH-ESTONIA  -123.19 EUR
 
 2020-04-10 * "Telia Eesti AS" "e-arve 04202001612079" ^seb-RO2669675903
   Assets:SEB:2010     -38.00 EUR
   Expenses:Utilities   38.00 EUR
 
 2020-04-10 * "REILENT MARTIN" "Makse SEB rakendusest" ^seb-RO2669910225
-  Assets:SEB:2010                  -125.00 EUR
-  Expenses:External:REILENTMARTIN   125.00 EUR
+  Assets:SEB:2010                   -125.00 EUR
+  Expenses:External:REILENT-MARTIN   125.00 EUR
 
 2020-04-11 * "KÜ Raatuse 18" "Arve nr 200430B tasumine" ^seb-RD196230381
-  Assets:SEB:2010               -105.12 EUR
-  Expenses:External:KRAATUSE18   105.12 EUR
+  Assets:SEB:2010                 -105.12 EUR
+  Expenses:External:K-RAATUSE-18   105.12 EUR
 
 2020-04-13 * "Telia Eesti AS" "Telia mobiilsete teenuste arve B20032850575" ^seb-RO2670891985
   Assets:SEB:2010     -1.00 EUR
@@ -757,16 +757,16 @@
   Expenses:Bank:Fees   17.50 EUR
 
 2020-04-14 * "REILENT MARTIN" "Digikassa kanne" ^seb-RO2671375986
-  Assets:SEB:2010                  -1.01 EUR
-  Expenses:External:REILENTMARTIN   1.01 EUR
+  Assets:SEB:2010                   -1.01 EUR
+  Expenses:External:REILENT-MARTIN   1.01 EUR
 
 2020-04-15 * "Blizzard Entertainment\\\\Versailles   \\             FR" "14/04/2020 00:00 kaart...679766 Blizzard Entertainment/Versailles/FR #268734" ^seb-RO2672434166
   Assets:SEB:2010   -19.99 EUR
   Expenses:Unknown   19.99 EUR
 
 2020-04-16 * "REILENT MARTIN" "Digikassa kanne" ^seb-RO2672672369
-  Assets:SEB:2010                  -0.01 EUR
-  Expenses:External:REILENTMARTIN   0.01 EUR
+  Assets:SEB:2010                   -0.01 EUR
+  Expenses:External:REILENT-MARTIN   0.01 EUR
 
 2020-04-20 * "Prisma Tartu S bra\\A.H. TAMMASAARE TEE 118 D 2\\TALLINNA\\12918     ESTEST" "18/04/2020 14:05 kaart...549860 Prisma Tartu S bra/TALLINNA/EST #861502" ^seb-RO2674832936
   Assets:SEB:2010   -14.00 EUR
@@ -777,34 +777,34 @@
   Expenses:Unknown   14.04 EUR
 
 2020-04-21 * "REILENT MARTIN" "Digikassa kanne" ^seb-RO2674975742
-  Assets:SEB:2010                  -0.96 EUR
-  Expenses:External:REILENTMARTIN   0.96 EUR
+  Assets:SEB:2010                   -0.96 EUR
+  Expenses:External:REILENT-MARTIN   0.96 EUR
 
 2020-04-21 * "NIKOLAJEV ALEKSANDR" "garaas" ^seb-RO2675316527
-  Assets:SEB:2010                       -40.00 EUR
-  Expenses:External:NIKOLAJEVALEKSANDR   40.00 EUR
+  Assets:SEB:2010                        -40.00 EUR
+  Expenses:External:NIKOLAJEV-ALEKSANDR   40.00 EUR
 
 2020-04-22 * "STEAMGAMES.COM        \\\\SEATTLE      \\             DE" "19/04/2020 00:00 kaart...679766 STEAMGAMES.COM/SEATTLE/DE #948688" ^seb-RO2675636711
   Assets:SEB:2010   -5.54 EUR
   Expenses:Unknown   5.54 EUR
 
 2020-04-22 * "MARTIN REILENT" "Makse investeerimiskontole" ^seb-RD196660409
-  Assets:SEB:2010                  -2000.00 EUR
-  Expenses:External:MARTINREILENT   2000.00 EUR
+  Assets:SEB:2010                   -2000.00 EUR
+  Expenses:External:MARTIN-REILENT   2000.00 EUR
 
 2020-04-23 * "REILENT MARTIN" "Digikassa kanne" ^seb-RO2675835024
-  Assets:SEB:2010                  -0.46 EUR
-  Expenses:External:REILENTMARTIN   0.46 EUR
+  Assets:SEB:2010                   -0.46 EUR
+  Expenses:External:REILENT-MARTIN   0.46 EUR
 
-2020-04-27 open Expenses:External:DLBTRADINGO                   EUR
+2020-04-27 open Expenses:External:DLB-TRADING-O                 EUR
 
 2020-04-27 * "REILENT MARTIN" "Makse SEB rakendusest" ^seb-RO2677675033
-  Assets:SEB:2010                  -100.00 EUR
-  Expenses:External:REILENTMARTIN   100.00 EUR
+  Assets:SEB:2010                   -100.00 EUR
+  Expenses:External:REILENT-MARTIN   100.00 EUR
 
 2020-04-27 * "DLB TRADING OÜ" "tellimuse maksmine 4446065" ^seb-RO2677809706
-  Assets:SEB:2010                -292.00 EUR
-  Expenses:External:DLBTRADINGO   292.00 EUR
+  Assets:SEB:2010                  -292.00 EUR
+  Expenses:External:DLB-TRADING-O   292.00 EUR
 
 2020-04-28 * "SEB" "Kaardi ...679766 hooldustasu kuus (04/2020) | (TT)" ^seb-RO2677903275
   Assets:SEB:2010     -1.00 EUR
@@ -815,8 +815,8 @@
   Expenses:Unknown   24.99 EUR
 
 2020-04-30 * "REILENT MARTIN" "Digikassa kanne" ^seb-RO2678896941
-  Assets:SEB:2010                  -0.01 EUR
-  Expenses:External:REILENTMARTIN   0.01 EUR
+  Assets:SEB:2010                   -0.01 EUR
+  Expenses:External:REILENT-MARTIN   0.01 EUR
 
 2020-04-30 * "OÜ PLAYTECH ESTONIA" "Palk" ^seb-RO2679255615
   Assets:SEB:2010   2504.09 EUR
@@ -827,8 +827,8 @@
   Expenses:Unknown   68.08 EUR
 
 2020-05-04 * "REILENT MARTIN" "Digikassa kanne" ^seb-RO2680591551
-  Assets:SEB:2010                  -0.92 EUR
-  Expenses:External:REILENTMARTIN   0.92 EUR
+  Assets:SEB:2010                   -0.92 EUR
+  Expenses:External:REILENT-MARTIN   0.92 EUR
 
 2020-05-04 * "AB ''Lietuvos draudimas'' Eesti filiaal" "Poliis nr 1049428147 Arve nr 6898188" ^seb-RO2680674741
   Assets:SEB:2010     -7.70 EUR
@@ -836,7 +836,7 @@
 
 2020-05-04 * "SEB Life and Pension Baltic SE Eesti filiaal" "SEB laenukaitse kindlustuse maksekorraldus" ^seb-RO2681077898
   Assets:SEB:2010     -20.33 EUR
-  Expenses:Insurance   20.33 EUR
+  Expenses:Bank:Fees   20.33 EUR
 
 2020-05-04 * "STEAMGAMES.COM        \\\\SEATTLE      \\             DE" "29/04/2020 00:00 kaart...679766 STEAMGAMES.COM/SEATTLE/DE #908096" ^seb-RO2680733361
   Assets:SEB:2010   -24.99 EUR
@@ -851,8 +851,8 @@
   Liabilities:Loan   156.46 EUR
 
 2020-05-05 * "REILENT MARTIN" "Digikassa kanne" ^seb-RO2681391057
-  Assets:SEB:2010                  -0.01 EUR
-  Expenses:External:REILENTMARTIN   0.01 EUR
+  Assets:SEB:2010                   -0.01 EUR
+  Expenses:External:REILENT-MARTIN   0.01 EUR
 
 2020-05-05 * "SOS LASTEKÜLA EESTI ÜHING MTÜ" "SOS Lasteküla annetus" ^seb-RO2681584039
   Assets:SEB:2010   -10.00 EUR
@@ -869,8 +869,8 @@
   Expenses:Entertainment:Subscriptions   11.99 EUR
 
 2020-05-07 * "REILENT MARTIN" "Digikassa kanne" ^seb-RO2682910788
-  Assets:SEB:2010                  -0.02 EUR
-  Expenses:External:REILENTMARTIN   0.02 EUR
+  Assets:SEB:2010                   -0.02 EUR
+  Expenses:External:REILENT-MARTIN   0.02 EUR
 
 2020-05-07 * "Eesti Energia AS" "561099875786" ^seb-RO2683058076
   Assets:SEB:2010     -33.59 EUR
@@ -881,74 +881,74 @@
   Expenses:Unknown   10.80 EUR
 
 2020-05-09 * "REILENT MARTIN" "Digikassa kanne" ^seb-RO2684566934
-  Assets:SEB:2010                  -0.20 EUR
-  Expenses:External:REILENTMARTIN   0.20 EUR
+  Assets:SEB:2010                   -0.20 EUR
+  Expenses:External:REILENT-MARTIN   0.20 EUR
 
 2020-05-09 * "VANA VILLEM           \\\\Tallinn           \\ESTEST" "07/05/2020 21:46 kaart...549860 VANA VILLEM #778408" ^seb-RO2684587926
   Assets:SEB:2010   -24.90 EUR
   Expenses:Unknown   24.90 EUR
 
 2020-05-10 * "REILENT MARTIN" "Digikassa kanne" ^seb-RO2684924816
-  Assets:SEB:2010                  -0.10 EUR
-  Expenses:External:REILENTMARTIN   0.10 EUR
+  Assets:SEB:2010                   -0.10 EUR
+  Expenses:External:REILENT-MARTIN   0.10 EUR
 
 2020-05-10 * "Telia Eesti AS" "e-arve 05202002090722" ^seb-RO2685089590
   Assets:SEB:2010     -38.00 EUR
   Expenses:Utilities   38.00 EUR
 
 2020-05-11 * "ELISA EESTI AS" "Makse 8694330" ^seb-RO2685379001
-  Assets:SEB:2010                 -3.99 EUR
-  Expenses:External:ELISAEESTIAS   3.99 EUR
+  Assets:SEB:2010                   -3.99 EUR
+  Expenses:External:ELISA-EESTI-AS   3.99 EUR
 
 2020-05-11 * "KASEPERE POOD         \\\\PADISE VALD       \\ESTEST" "09/05/2020 14:02 kaart...549860 KASEPERE POOD #950566" ^seb-RO2685528986
   Assets:SEB:2010   -16.30 EUR
   Expenses:Unknown   16.30 EUR
 
 2020-05-12 * "REILENT MARTIN" "Digikassa kanne" ^seb-RO2686405729
-  Assets:SEB:2010                  -0.70 EUR
-  Expenses:External:REILENTMARTIN   0.70 EUR
+  Assets:SEB:2010                   -0.70 EUR
+  Expenses:External:REILENT-MARTIN   0.70 EUR
 
 2020-05-12 * "Lilleari  Jyri        \\\\Rae vald          \\ESTEST" "10/05/2020 14:01 kaart...549860 Lilleari Jyri #050504" ^seb-RO2686614851
   Assets:SEB:2010   -12.70 EUR
   Expenses:Unknown   12.70 EUR
 
-2020-05-13 open Expenses:External:SMARTECHSHOPO                 EUR
+2020-05-13 open Expenses:External:SMARTECH-SHOP-O               EUR
 
 2020-05-13 * "REILENT MARTIN" "Digikassa kanne" ^seb-RO2687050257
-  Assets:SEB:2010                  -0.30 EUR
-  Expenses:External:REILENTMARTIN   0.30 EUR
+  Assets:SEB:2010                   -0.30 EUR
+  Expenses:External:REILENT-MARTIN   0.30 EUR
 
 2020-05-13 * "Telia Eesti AS" "Telia mobiilsete teenuste arve B20043221370" ^seb-RO2687211941
   Assets:SEB:2010     -1.00 EUR
   Expenses:Utilities   1.00 EUR
 
 2020-05-13 * "NIKOLAJEV ALEKSANDR" "grs" ^seb-RO2686993353
-  Assets:SEB:2010                       -40.00 EUR
-  Expenses:External:NIKOLAJEVALEKSANDR   40.00 EUR
+  Assets:SEB:2010                        -40.00 EUR
+  Expenses:External:NIKOLAJEV-ALEKSANDR   40.00 EUR
 
 2020-05-13 * "KÜ Raatuse 18" "Arve nr 200530 tasumine" ^seb-RD197586066
-  Assets:SEB:2010               -96.93 EUR
-  Expenses:External:KRAATUSE18   96.93 EUR
+  Assets:SEB:2010                 -96.93 EUR
+  Expenses:External:K-RAATUSE-18   96.93 EUR
 
 2020-05-13 * "SMARTECH SHOP OÜ" "Smartech Shop OU tellimine 26147" ^seb-RO2687555571
-  Assets:SEB:2010                  -234.90 EUR
-  Expenses:External:SMARTECHSHOPO   234.90 EUR
+  Assets:SEB:2010                    -234.90 EUR
+  Expenses:External:SMARTECH-SHOP-O   234.90 EUR
 
 2020-05-15 * "E-SIGARETIPOOD EEDEN  \\\\Tartu linn        \\ESTEST" "13/05/2020 12:27 kaart...549860 E-SIGARETIPOOD EEDEN #344841" ^seb-RO2688338690
   Assets:SEB:2010   -20.97 EUR
   Expenses:Unknown   20.97 EUR
 
 2020-05-15 * "REILENT MARTIN" "Makse SEB rakendusest" ^seb-RO2688856188
-  Assets:SEB:2010                  -200.00 EUR
-  Expenses:External:REILENTMARTIN   200.00 EUR
+  Assets:SEB:2010                   -200.00 EUR
+  Expenses:External:REILENT-MARTIN   200.00 EUR
 
 2020-05-16 * "REILENT MARTIN" "Digikassa kanne" ^seb-RO2688965790
-  Assets:SEB:2010                  -0.03 EUR
-  Expenses:External:REILENTMARTIN   0.03 EUR
+  Assets:SEB:2010                   -0.03 EUR
+  Expenses:External:REILENT-MARTIN   0.03 EUR
 
 2020-05-17 * "REILENT MARTIN" "Sissemakse kogumishoiusele" ^seb-RO2689572374
-  Assets:SEB:2010                  -1000.00 EUR
-  Expenses:External:REILENTMARTIN   1000.00 EUR
+  Assets:SEB:2010                   -1000.00 EUR
+  Expenses:External:REILENT-MARTIN   1000.00 EUR
 
 2020-05-18 * "Ehituse ABC  Tartu    \\\\Tartu             \\ESTEST" "16/05/2020 14:24 kaart...549860 Ehituse ABC Tartu #651894" ^seb-RO2689911562
   Assets:SEB:2010   -2.28 EUR
@@ -962,41 +962,41 @@
   Assets:SEB:2010   -18.59 EUR
   Expenses:Unknown   18.59 EUR
 
-2020-05-19 open Expenses:External:ADRIANTOOU                    EUR
+2020-05-19 open Expenses:External:ADRIANTO-OU                   EUR
 
 2020-05-19 * "REILENT MARTIN" "Digikassa kanne" ^seb-RO2690459929
-  Assets:SEB:2010                  -1.68 EUR
-  Expenses:External:REILENTMARTIN   1.68 EUR
+  Assets:SEB:2010                   -1.68 EUR
+  Expenses:External:REILENT-MARTIN   1.68 EUR
 
 2020-05-19 * "REILENT MARTIN" "Makse SEB rakendusest" ^seb-RO2690874227
-  Assets:SEB:2010                  -2.12 EUR
-  Expenses:External:REILENTMARTIN   2.12 EUR
+  Assets:SEB:2010                   -2.12 EUR
+  Expenses:External:REILENT-MARTIN   2.12 EUR
 
 2020-05-19 * "Adrianto OU" "Arve nr 2164. Martin Reilent" ^seb-RD197842652
-  Assets:SEB:2010               -160.00 EUR
-  Expenses:External:ADRIANTOOU   160.00 EUR
+  Assets:SEB:2010                -160.00 EUR
+  Expenses:External:ADRIANTO-OU   160.00 EUR
 
 2020-05-19 * "REILENT MARTIN" "Makse SEB rakendusest" ^seb-RO2690874132
-  Assets:SEB:2010                 47.00 EUR
-  Income:External:REILENTMARTIN  -47.00 EUR
+  Assets:SEB:2010                  47.00 EUR
+  Income:External:REILENT-MARTIN  -47.00 EUR
 
-2020-05-20 open Expenses:External:TANTSUSTUUDIOLATINPASSIONMT   EUR
+2020-05-20 open Expenses:External:TANTSUSTUUDIO-LATIN-PASSION-MT EUR
 
 2020-05-20 * "TANTSUSTUUDIO LATIN PASSION MTÜ" "Arve nr 14415" ^seb-RO2691468539
-  Assets:SEB:2010                                -25.00 EUR
-  Expenses:External:TANTSUSTUUDIOLATINPASSIONMT   25.00 EUR
+  Assets:SEB:2010                                   -25.00 EUR
+  Expenses:External:TANTSUSTUUDIO-LATIN-PASSION-MT   25.00 EUR
 
 2020-05-22 * "AMZN Mktp DE*UX6OJ2R25\\5 rue plaetis\\800-279-6620\\L2338     LUXLUX" "21/05/2020 00:00 kaart...549860 AMZN Mktp DE*UX6OJ2R25/800-279-6620/LUX #972069" ^seb-RO2692287658
   Assets:SEB:2010   -44.88 EUR
   Expenses:Unknown   44.88 EUR
 
 2020-05-23 * "REILENT MARTIN" "Digikassa kanne" ^seb-RO2692584381
-  Assets:SEB:2010                  -0.12 EUR
-  Expenses:External:REILENTMARTIN   0.12 EUR
+  Assets:SEB:2010                   -0.12 EUR
+  Expenses:External:REILENT-MARTIN   0.12 EUR
 
 2020-05-23 * "REILENT MARTIN" "Makse SEB rakendusest" ^seb-RO2692891060
-  Assets:SEB:2010                  -100.00 EUR
-  Expenses:External:REILENTMARTIN   100.00 EUR
+  Assets:SEB:2010                   -100.00 EUR
+  Expenses:External:REILENT-MARTIN   100.00 EUR
 
 2020-05-25 * "BOLT.EU" "22/05/2020 08:49 kaart...549860 BOLT.EU /R/2005220948/Tallinn/EST #235329" ^seb-RO2693417934
   Assets:SEB:2010   -0.86 EUR
@@ -1015,18 +1015,18 @@
   Expenses:Unknown   0.79 EUR
 
 2020-05-26 * "REILENT MARTIN" "Digikassa kanne" ^seb-RO2693909142
-  Assets:SEB:2010                  -1.98 EUR
-  Expenses:External:REILENTMARTIN   1.98 EUR
+  Assets:SEB:2010                   -1.98 EUR
+  Expenses:External:REILENT-MARTIN   1.98 EUR
 
-2020-05-27 open Expenses:External:PAJUMARKO                     EUR
+2020-05-27 open Expenses:External:PAJU-MARKO                    EUR
 
 2020-05-27 * "REILENT MARTIN" "Digikassa kanne" ^seb-RO2694364688
-  Assets:SEB:2010                  -0.21 EUR
-  Expenses:External:REILENTMARTIN   0.21 EUR
+  Assets:SEB:2010                   -0.21 EUR
+  Expenses:External:REILENT-MARTIN   0.21 EUR
 
 2020-05-27 * "PAJU MARKO" "Joogid" ^seb-RO2694729315
-  Assets:SEB:2010              -39.00 EUR
-  Expenses:External:PAJUMARKO   39.00 EUR
+  Assets:SEB:2010               -39.00 EUR
+  Expenses:External:PAJU-MARKO   39.00 EUR
 
 2020-05-28 * "SEB" "Kaardi ...679766 hooldustasu kuus (05/2020) | (TT)" ^seb-RO2694855262
   Assets:SEB:2010     -1.00 EUR
@@ -1041,8 +1041,8 @@
   Income:Salary    -2504.09 EUR
 
 2020-05-30 * "REILENT MARTIN" "Digikassa kanne" ^seb-RO2696105856
-  Assets:SEB:2010                  -0.85 EUR
-  Expenses:External:REILENTMARTIN   0.85 EUR
+  Assets:SEB:2010                   -0.85 EUR
+  Expenses:External:REILENT-MARTIN   0.85 EUR
 
 2020-05-30 * "KAUBAMAJA TARTU       \\\\TARTU             \\ESTEST" "28/05/2020 14:56 kaart...549860 KAUBAMAJA TARTU #853792" ^seb-RO2696150541
   Assets:SEB:2010   -5.93 EUR
@@ -1053,12 +1053,12 @@
   Expenses:Unknown   131.05 EUR
 
 2020-05-30 * "REILENT MARTIN" "Makse SEB rakendusest" ^seb-RO2696328544
-  Assets:SEB:2010                  -200.00 EUR
-  Expenses:External:REILENTMARTIN   200.00 EUR
+  Assets:SEB:2010                   -200.00 EUR
+  Expenses:External:REILENT-MARTIN   200.00 EUR
 
 2020-05-31 * "REILENT MARTIN" "Digikassa kanne" ^seb-RO2696426567
-  Assets:SEB:2010                  -1.02 EUR
-  Expenses:External:REILENTMARTIN   1.02 EUR
+  Assets:SEB:2010                   -1.02 EUR
+  Expenses:External:REILENT-MARTIN   1.02 EUR
 
 2020-06-01 open Expenses:Transportation:Fuel                    EUR
 
@@ -1075,8 +1075,8 @@
   Expenses:Transportation:Fuel   11.55 EUR
 
 2020-06-02 * "REILENT MARTIN" "Digikassa kanne" ^seb-RO2697581767
-  Assets:SEB:2010                  -1.48 EUR
-  Expenses:External:REILENTMARTIN   1.48 EUR
+  Assets:SEB:2010                   -1.48 EUR
+  Expenses:External:REILENT-MARTIN   1.48 EUR
 
 2020-06-02 * "AB ''Lietuvos draudimas'' Eesti filiaal" "Poliis nr 1049428147 Arve nr 7041401" ^seb-RO2697723269
   Assets:SEB:2010     -7.70 EUR
@@ -1084,7 +1084,7 @@
 
 2020-06-02 * "SEB Life and Pension Baltic SE Eesti filiaal" "SEB laenukaitse kindlustuse maksekorraldus" ^seb-RO2697960651
   Assets:SEB:2010     -18.39 EUR
-  Expenses:Insurance   18.39 EUR
+  Expenses:Bank:Fees   18.39 EUR
 
 2020-06-02 * "Lep. 2015026274/intress/L150011342 | (L)" ^seb-RO2697539183
   Assets:SEB:2010   -117.27 EUR
@@ -1095,8 +1095,8 @@
   Liabilities:Loan   168.89 EUR
 
 2020-06-02 * "Martin Reilent" "Makse SEB rakendusest" ^seb-RD198276042
-  Assets:SEB:2010                  -200.00 EUR
-  Expenses:External:MARTINREILENT   200.00 EUR
+  Assets:SEB:2010                   -200.00 EUR
+  Expenses:External:MARTIN-REILENT   200.00 EUR
 
 2020-06-03 * "LOKAAL PIROGOV\\RUUTLI 2\\TARTU\\51007        EST" "02/06/2020 18:20 kaart...549860 LOKAAL PIROGOV/TARTU/EST #266017" ^seb-RO2698495810
   Assets:SEB:2010   -3.90 EUR
@@ -1107,12 +1107,12 @@
   Expenses:Unknown   189.99 EUR
 
 2020-06-04 * "REILENT MARTIN" "Digikassa kanne" ^seb-RO2698969633
-  Assets:SEB:2010                  -0.11 EUR
-  Expenses:External:REILENTMARTIN   0.11 EUR
+  Assets:SEB:2010                   -0.11 EUR
+  Expenses:External:REILENT-MARTIN   0.11 EUR
 
 2020-06-04 * "Martin Reilent" "Makse SEB rakendusest" ^seb-RD198345087
-  Assets:SEB:2010                  -800.00 EUR
-  Expenses:External:MARTINREILENT   800.00 EUR
+  Assets:SEB:2010                   -800.00 EUR
+  Expenses:External:MARTIN-REILENT   800.00 EUR
 
 2020-06-05 * "SOS LASTEKÜLA EESTI ÜHING MTÜ" "SOS Lasteküla annetus" ^seb-RO2699835584
   Assets:SEB:2010   -10.00 EUR
@@ -1143,42 +1143,42 @@
   Expenses:Unknown   28.00 EUR
 
 2020-06-08 * "NIKOLAJEV ALEKSANDR" "grs" ^seb-RO2702489089
-  Assets:SEB:2010                       -40.00 EUR
-  Expenses:External:NIKOLAJEVALEKSANDR   40.00 EUR
+  Assets:SEB:2010                        -40.00 EUR
+  Expenses:External:NIKOLAJEV-ALEKSANDR   40.00 EUR
 
 2020-06-09 * "REILENT MARTIN" "Digikassa kanne" ^seb-RO2702652601
-  Assets:SEB:2010                  -0.92 EUR
-  Expenses:External:REILENTMARTIN   0.92 EUR
+  Assets:SEB:2010                   -0.92 EUR
+  Expenses:External:REILENT-MARTIN   0.92 EUR
 
 2020-06-09 * "OÜ PLAYTECH ESTONIA" "Kalade programm 06/2020" ^seb-RO2703071431
-  Assets:SEB:2010                    103.41 EUR
-  Income:External:OPLAYTECHESTONIA  -103.41 EUR
+  Assets:SEB:2010                      103.41 EUR
+  Income:External:O-PLAYTECH-ESTONIA  -103.41 EUR
 
 2020-06-10 * "My Fitness AS" "Arve 20246346 tasumine" ^seb-RO2703526104
-  Assets:SEB:2010                -27.10 EUR
-  Expenses:External:MYFITNESSAS   27.10 EUR
+  Assets:SEB:2010                  -27.10 EUR
+  Expenses:External:MY-FITNESS-AS   27.10 EUR
 
 2020-06-10 * "Telia Eesti AS" "e-arve 06202002577004" ^seb-RO2703543637
   Assets:SEB:2010     -38.00 EUR
   Expenses:Utilities   38.00 EUR
 
 2020-06-11 * "PAJU MARKO" "Makse SEB rakendusest" ^seb-RO2704689471
-  Assets:SEB:2010             90.00 EUR
-  Income:External:PAJUMARKO  -90.00 EUR
+  Assets:SEB:2010              90.00 EUR
+  Income:External:PAJU-MARKO  -90.00 EUR
 
 2020-06-11 * "OÜ PLAYTECH ESTONIA" "Puhkusetasu" ^seb-RO2704803600
   Assets:SEB:2010   250.41 EUR
   Income:Salary    -250.41 EUR
 
-2020-06-12 open Income:External:IIRISLSI                        EUR
+2020-06-12 open Income:External:IIRIS-LSI                       EUR
 
 2020-06-12 * "REILENT MARTIN" "Sissemakse kogumishoiusele" ^seb-RO2705551269
-  Assets:SEB:2010                  -300.00 EUR
-  Expenses:External:REILENTMARTIN   300.00 EUR
+  Assets:SEB:2010                   -300.00 EUR
+  Expenses:External:REILENT-MARTIN   300.00 EUR
 
 2020-06-12 * "IIRIS LÜSI" "ingi" ^seb-RO2705295116
-  Assets:SEB:2010            60.00 EUR
-  Income:External:IIRISLSI  -60.00 EUR
+  Assets:SEB:2010             60.00 EUR
+  Income:External:IIRIS-LSI  -60.00 EUR
 
 2020-06-13 * "Telia Eesti AS" "Telia mobiilsete teenuste arve B20053594692" ^seb-RO2705960261
   Assets:SEB:2010     -1.00 EUR
@@ -1189,34 +1189,34 @@
   Expenses:Unknown   18.00 EUR
 
 2020-06-13 * "KÜ Raatuse 18" "Arve nr 200630 tasumine" ^seb-RD198934993
-  Assets:SEB:2010               -87.46 EUR
-  Expenses:External:KRAATUSE18   87.46 EUR
+  Assets:SEB:2010                 -87.46 EUR
+  Expenses:External:K-RAATUSE-18   87.46 EUR
 
 2020-06-13 * "EURONICS TARTU KAUBAMA\\\\TARTU             \\ESTEST" "11/06/2020 12:26 kaart...549860 EURONICS TARTU KAUBAMA #144782" ^seb-RO2705748571
   Assets:SEB:2010   -89.99 EUR
   Expenses:Unknown   89.99 EUR
 
-2020-06-14 open Expenses:External:KASPARKRIISK                  EUR
+2020-06-14 open Expenses:External:KASPAR-KRIISK                 EUR
 
 2020-06-14 * "REILENT MARTIN" "Digikassa kanne" ^seb-RO2706130834
-  Assets:SEB:2010                  -0.01 EUR
-  Expenses:External:REILENTMARTIN   0.01 EUR
+  Assets:SEB:2010                   -0.01 EUR
+  Expenses:External:REILENT-MARTIN   0.01 EUR
 
 2020-06-14 * "KAUBAMAJA TALLINN     \\\\TALLINN           \\ESTEST" "12/06/2020 14:12 kaart...549860 KAUBAMAJA TALLINN #251181" ^seb-RO2706187268
   Assets:SEB:2010   -50.00 EUR
   Expenses:Unknown   50.00 EUR
 
 2020-06-14 * "kaspar kriisk" "p2rnu + jaan - merle" ^seb-RD198946755
-  Assets:SEB:2010                 -57.00 EUR
-  Expenses:External:KASPARKRIISK   57.00 EUR
+  Assets:SEB:2010                  -57.00 EUR
+  Expenses:External:KASPAR-KRIISK   57.00 EUR
 
 2020-06-14 * "REILENT MARTIN" "Makse SEB rakendusest" ^seb-RO2706371119
-  Assets:SEB:2010                  -100.00 EUR
-  Expenses:External:REILENTMARTIN   100.00 EUR
+  Assets:SEB:2010                   -100.00 EUR
+  Expenses:External:REILENT-MARTIN   100.00 EUR
 
 2020-06-14 * "Martin Reilent" "Makse SEB rakendusest" ^seb-RD198946779
-  Assets:SEB:2010                  -200.00 EUR
-  Expenses:External:MARTINREILENT   200.00 EUR
+  Assets:SEB:2010                   -200.00 EUR
+  Expenses:External:MARTIN-REILENT   200.00 EUR
 
 2020-06-15 * "BOLT.EU" "13/06/2020 00:11 kaart...549860 BOLT.EU /O/2006130025/Tallinn/EST #304212" ^seb-RO2706898449
   Assets:SEB:2010   -11.00 EUR
@@ -1227,20 +1227,20 @@
   Expenses:Unknown   13.90 EUR
 
 2020-06-16 * "REILENT MARTIN" "Digikassa kanne" ^seb-RO2707473732
-  Assets:SEB:2010                  -0.10 EUR
-  Expenses:External:REILENTMARTIN   0.10 EUR
+  Assets:SEB:2010                   -0.10 EUR
+  Expenses:External:REILENT-MARTIN   0.10 EUR
 
 2020-06-16 * "STOCKMANN TALLINN     \\LIIVALAIA 53              \\TALLINN      \\10145     ESTEST" "12/06/2020 13:33 kaart...549860 STOCKMANN TALLINN/TALLINN/EST #248806" ^seb-RO2707741329
   Assets:SEB:2010   -3.00 EUR
   Expenses:Unknown   3.00 EUR
 
 2020-06-17 * "PAYSERA LT UAB" "R369856751 Order 47385207 https://latinpassion.ee" ^seb-RO2708646598
-  Assets:SEB:2010                 -25.00 EUR
-  Expenses:External:PAYSERALTUAB   25.00 EUR
+  Assets:SEB:2010                   -25.00 EUR
+  Expenses:External:PAYSERA-LT-UAB   25.00 EUR
 
 2020-06-20 * "Martin Reilent" "Makse SEB rakendusest" ^seb-RD199194344
-  Assets:SEB:2010                  -200.00 EUR
-  Expenses:External:MARTINREILENT   200.00 EUR
+  Assets:SEB:2010                   -200.00 EUR
+  Expenses:External:MARTIN-REILENT   200.00 EUR
 
 2020-06-28 * "SEB" "Kaardi ...679766 hooldustasu kuus (06/2020) | (TT)" ^seb-RO2713786508
   Assets:SEB:2010     -1.00 EUR
@@ -1259,8 +1259,8 @@
   Expenses:Unknown   54.41 EUR
 
 2020-07-02 * "REILENT MARTIN" "Digikassa kanne" ^seb-RO2716250803
-  Assets:SEB:2010                  -1.53 EUR
-  Expenses:External:REILENTMARTIN   1.53 EUR
+  Assets:SEB:2010                   -1.53 EUR
+  Expenses:External:REILENT-MARTIN   1.53 EUR
 
 2020-07-02 * "AB Lietuvos draudimas Eesti filiaal" "Poliis nr 1049428147 Arve nr 7183027" ^seb-RO2716379655
   Assets:SEB:2010     -7.70 EUR
@@ -1268,11 +1268,11 @@
 
 2020-07-02 * "SEB Life and Pension Baltic SE Eesti filiaal" "SEB laenukaitse kindlustuse maksekorraldus" ^seb-RO2716682416
   Assets:SEB:2010     -18.99 EUR
-  Expenses:Insurance   18.99 EUR
+  Expenses:Bank:Fees   18.99 EUR
 
 2020-07-02 * "REILENT MARTIN" "Makse SEB rakendusest" ^seb-RO2716743986
-  Assets:SEB:2010                  -100.00 EUR
-  Expenses:External:REILENTMARTIN   100.00 EUR
+  Assets:SEB:2010                   -100.00 EUR
+  Expenses:External:REILENT-MARTIN   100.00 EUR
 
 2020-07-02 * "VÄLJAMAKSE 02/07/2020 19:03 kaart...9860 EYP00441 Riia mnt 1#701577 | (SR)" ^seb-RO2716729013
   Assets:SEB:2010   -120.00 EUR
@@ -1287,18 +1287,18 @@
   Liabilities:Loan   165.15 EUR
 
 2020-07-03 * "REILENT MARTIN" "Sissemakse kogumishoiusele" ^seb-RO2717621763
-  Assets:SEB:2010                  -690.00 EUR
-  Expenses:External:REILENTMARTIN   690.00 EUR
+  Assets:SEB:2010                   -690.00 EUR
+  Expenses:External:REILENT-MARTIN   690.00 EUR
 
-2020-07-04 open Expenses:External:EESTILOTOAS                   EUR
+2020-07-04 open Expenses:External:EESTI-LOTO-AS                 EUR
 
 2020-07-04 * "EESTI LOTO AS" "CID: 406423, TID: 21222109108" ^seb-RO2718257776
-  Assets:SEB:2010                -20.00 EUR
-  Expenses:External:EESTILOTOAS   20.00 EUR
+  Assets:SEB:2010                  -20.00 EUR
+  Expenses:External:EESTI-LOTO-AS   20.00 EUR
 
 2020-07-04 * "EESTI LOTO AS" "CID: 406423, TID: 21222109616" ^seb-RO2718258099
-  Assets:SEB:2010                -40.00 EUR
-  Expenses:External:EESTILOTOAS   40.00 EUR
+  Assets:SEB:2010                  -40.00 EUR
+  Expenses:External:EESTI-LOTO-AS   40.00 EUR
 
 2020-07-05 * "Eesti Energia AS" "561928522832" ^seb-RO2718389290
   Assets:SEB:2010     -21.75 EUR
@@ -1309,8 +1309,8 @@
   Expenses:Unknown   34.40 EUR
 
 2020-07-06 * "REILENT MARTIN" "Digikassa kanne" ^seb-RO2718636812
-  Assets:SEB:2010                  -0.60 EUR
-  Expenses:External:REILENTMARTIN   0.60 EUR
+  Assets:SEB:2010                   -0.60 EUR
+  Expenses:External:REILENT-MARTIN   0.60 EUR
 
 2020-07-06 * "APPLE.COM" "04/07/2020 00:00 kaart...549860 APPLE.COM/BILL/ITUNES.COM/IRL #507542" ^seb-RO2719338184
   Assets:SEB:2010                       -2.99 EUR
@@ -1323,8 +1323,8 @@
 2020-07-07 open Expenses:Clothing                               EUR
 
 2020-07-07 * "REILENT MARTIN" "Digikassa kanne" ^seb-RO2719473933
-  Assets:SEB:2010                  -0.02 EUR
-  Expenses:External:REILENTMARTIN   0.02 EUR
+  Assets:SEB:2010                   -0.02 EUR
+  Expenses:External:REILENT-MARTIN   0.02 EUR
 
 2020-07-07 * "BOLT.EU" "06/07/2020 09:31 kaart...549860 BOLT.EU /O/2007061017/Tallinn/EST #637808" ^seb-RO2719574653
   Assets:SEB:2010   -3.60 EUR
@@ -1343,50 +1343,50 @@
   Expenses:Unknown   24.00 EUR
 
 2020-07-07 * "NIKOLAJEV ALEKSANDR" "grs" ^seb-RO2719917660
-  Assets:SEB:2010                       -40.00 EUR
-  Expenses:External:NIKOLAJEVALEKSANDR   40.00 EUR
+  Assets:SEB:2010                        -40.00 EUR
+  Expenses:External:NIKOLAJEV-ALEKSANDR   40.00 EUR
 
 2020-07-07 * "Martin Reilent" "Makse SEB rakendusest" ^seb-RD199836231
-  Assets:SEB:2010                  -200.00 EUR
-  Expenses:External:MARTINREILENT   200.00 EUR
+  Assets:SEB:2010                   -200.00 EUR
+  Expenses:External:MARTIN-REILENT   200.00 EUR
 
-2020-07-08 open Expenses:External:VEIKKOKALMUS                  EUR
+2020-07-08 open Expenses:External:VEIKKO-KALMUS                 EUR
 
 2020-07-08 * "REILENT MARTIN" "Digikassa kanne" ^seb-RO2720422830
-  Assets:SEB:2010                  -0.61 EUR
-  Expenses:External:REILENTMARTIN   0.61 EUR
+  Assets:SEB:2010                   -0.61 EUR
+  Expenses:External:REILENT-MARTIN   0.61 EUR
 
 2020-07-08 * "NIKOLAJEV ALEKSANDR" "Joogid" ^seb-RO2721060505
-  Assets:SEB:2010                       -34.00 EUR
-  Expenses:External:NIKOLAJEVALEKSANDR   34.00 EUR
+  Assets:SEB:2010                        -34.00 EUR
+  Expenses:External:NIKOLAJEV-ALEKSANDR   34.00 EUR
 
 2020-07-08 * "TOMMY HILFIGER" "05/07/2020 15:49 kaart...549860 TOMMY HILFIGER /LOUNAK/TARTU/EST #556979" ^seb-RO2720717395
   Assets:SEB:2010   -42.65 EUR
   Expenses:Unknown   42.65 EUR
 
 2020-07-08 * "Veikko Kalmus" "Kont + pogenemine" ^seb-RD199871366
-  Assets:SEB:2010                 -64.25 EUR
-  Expenses:External:VEIKKOKALMUS   64.25 EUR
+  Assets:SEB:2010                  -64.25 EUR
+  Expenses:External:VEIKKO-KALMUS   64.25 EUR
 
 2020-07-09 * "REILENT MARTIN" "Digikassa kanne" ^seb-RO2721300145
-  Assets:SEB:2010                  -0.35 EUR
-  Expenses:External:REILENTMARTIN   0.35 EUR
+  Assets:SEB:2010                   -0.35 EUR
+  Expenses:External:REILENT-MARTIN   0.35 EUR
 
 2020-07-09 * "kinguin.net           \\\\WARSZAWA     \\             PL" "08/07/2020 00:00 kaart...679766 kinguin.net/WARSZAWA/PL #872929" ^seb-RO2721846244
   Assets:SEB:2010   -15.74 EUR
   Expenses:Unknown   15.74 EUR
 
 2020-07-09 * "REILENT MARTIN" "Makse SEB rakendusest" ^seb-RO2722032704
-  Assets:SEB:2010                  -100.00 EUR
-  Expenses:External:REILENTMARTIN   100.00 EUR
+  Assets:SEB:2010                   -100.00 EUR
+  Expenses:External:REILENT-MARTIN   100.00 EUR
 
 2020-07-10 * "REILENT MARTIN" "Digikassa kanne" ^seb-RO2722364701
-  Assets:SEB:2010                  -0.26 EUR
-  Expenses:External:REILENTMARTIN   0.26 EUR
+  Assets:SEB:2010                   -0.26 EUR
+  Expenses:External:REILENT-MARTIN   0.26 EUR
 
 2020-07-10 * "My Fitness AS" "Arve 20283605 tasumine" ^seb-RO2722433430
-  Assets:SEB:2010                -30.00 EUR
-  Expenses:External:MYFITNESSAS   30.00 EUR
+  Assets:SEB:2010                  -30.00 EUR
+  Expenses:External:MY-FITNESS-AS   30.00 EUR
 
 2020-07-10 * "Telia Eesti AS" "e-arve 07202003068969" ^seb-RO2722436561
   Assets:SEB:2010     -38.00 EUR
@@ -1397,32 +1397,32 @@
   Expenses:Insurance   47.80 EUR
 
 2020-07-12 * "KÜ Raatuse 18" "Arve nr 200730 tasumine" ^seb-RD200100950
-  Assets:SEB:2010               -62.58 EUR
-  Expenses:External:KRAATUSE18   62.58 EUR
+  Assets:SEB:2010                 -62.58 EUR
+  Expenses:External:K-RAATUSE-18   62.58 EUR
 
 2020-07-13 * "Telia Eesti AS" "Telia mobiilsete teenuste arve B20063966773" ^seb-RO2723766693
   Assets:SEB:2010     -1.00 EUR
   Expenses:Utilities   1.00 EUR
 
 2020-07-18 * "Martin Reilent" "Makse SEB rakendusest" ^seb-RD200354623
-  Assets:SEB:2010                  -100.00 EUR
-  Expenses:External:MARTINREILENT   100.00 EUR
+  Assets:SEB:2010                   -100.00 EUR
+  Expenses:External:MARTIN-REILENT   100.00 EUR
 
-2020-07-19 open Expenses:External:LEPPSANDER                    EUR
+2020-07-19 open Expenses:External:LEPP-SANDER                   EUR
 
 2020-07-19 * "LEPP SANDER" "Makse SEB rakendusest" ^seb-RO2728017529
-  Assets:SEB:2010               -5.00 EUR
-  Expenses:External:LEPPSANDER   5.00 EUR
+  Assets:SEB:2010                -5.00 EUR
+  Expenses:External:LEPP-SANDER   5.00 EUR
 
 2020-07-20 * "PAJU MARKO" "Makse SEB rakendusest" ^seb-RO2728392319
-  Assets:SEB:2010             22.00 EUR
-  Income:External:PAJUMARKO  -22.00 EUR
+  Assets:SEB:2010              22.00 EUR
+  Income:External:PAJU-MARKO  -22.00 EUR
 
-2020-07-21 open Expenses:External:ZONEMEDIAO                    EUR
+2020-07-21 open Expenses:External:ZONE-MEDIA-O                  EUR
 
 2020-07-21 * "ZONE MEDIA OÜ" "Invoice 8542116 (martch.eu)" ^seb-RO2729726484
-  Assets:SEB:2010               -7.99 EUR
-  Expenses:External:ZONEMEDIAO   7.99 EUR
+  Assets:SEB:2010                 -7.99 EUR
+  Expenses:External:ZONE-MEDIA-O   7.99 EUR
 
 2020-07-27 * "BOLT.EU" "25/07/2020 19:23 kaart...549860 BOLT.EU /O/2007251932/Tallinn/EST #573350" ^seb-RO2732463087
   Assets:SEB:2010   -5.70 EUR
@@ -1433,8 +1433,8 @@
   Expenses:Unknown   6.00 EUR
 
 2020-07-28 * "REILENT MARTIN" "Digikassa kanne" ^seb-RO2732767558
-  Assets:SEB:2010                  -0.30 EUR
-  Expenses:External:REILENTMARTIN   0.30 EUR
+  Assets:SEB:2010                   -0.30 EUR
+  Expenses:External:REILENT-MARTIN   0.30 EUR
 
 2020-07-28 * "SEB" "Kaardi ...679766 hooldustasu kuus (07/2020) | (TT)" ^seb-RO2732614922
   Assets:SEB:2010     -1.00 EUR
@@ -1445,22 +1445,22 @@
   Expenses:Transportation:Fuel   5.90 EUR
 
 2020-07-29 * "REILENT MARTIN" "Digikassa kanne" ^seb-RO2733477103
-  Assets:SEB:2010                  -0.10 EUR
-  Expenses:External:REILENTMARTIN   0.10 EUR
+  Assets:SEB:2010                   -0.10 EUR
+  Expenses:External:REILENT-MARTIN   0.10 EUR
 
 2020-07-29 * "ENTRI\\KUUNI 7\\TARTU\\51004        EST" "28/07/2020 13:31 kaart...549860 ENTRI/TARTU/EST #848715" ^seb-RO2733710917
   Assets:SEB:2010   -5.40 EUR
   Expenses:Unknown   5.40 EUR
 
 2020-07-29 * "REILENT MARTIN" "Väljamakse kogumishoiuselt" ^seb-RO2733536113
-  Assets:SEB:2010                 300.00 EUR
-  Income:External:REILENTMARTIN  -300.00 EUR
+  Assets:SEB:2010                  300.00 EUR
+  Income:External:REILENT-MARTIN  -300.00 EUR
 
 2020-07-30 open Expenses:Food:Groceries                         EUR
 
 2020-07-30 * "REILENT MARTIN" "Digikassa kanne" ^seb-RO2734006571
-  Assets:SEB:2010                  -0.60 EUR
-  Expenses:External:REILENTMARTIN   0.60 EUR
+  Assets:SEB:2010                   -0.60 EUR
+  Expenses:External:REILENT-MARTIN   0.60 EUR
 
 2020-07-30 * "LOKAAL PIROGOV\\RUUTLI 2\\TARTU\\51007        EST" "29/07/2020 18:32 kaart...549860 LOKAAL PIROGOV/TARTU/EST #966747" ^seb-RO2734378742
   Assets:SEB:2010   -3.70 EUR
@@ -1479,8 +1479,8 @@
   Expenses:Unknown   8.10 EUR
 
 2020-07-31 * "REILENT MARTIN" "Digikassa kanne" ^seb-RO2734569905
-  Assets:SEB:2010                  -1.60 EUR
-  Expenses:External:REILENTMARTIN   1.60 EUR
+  Assets:SEB:2010                   -1.60 EUR
+  Expenses:External:REILENT-MARTIN   1.60 EUR
 
 2020-07-31 * "ENTRI\\KUUNI 7\\TARTU\\51004        EST" "30/07/2020 14:27 kaart...549860 ENTRI/TARTU/EST #052052" ^seb-RO2734813432
   Assets:SEB:2010   -5.40 EUR
@@ -1495,24 +1495,24 @@
   Expenses:Unknown   9.40 EUR
 
 2020-07-31 * "Martin Reilent" "Makse SEB rakendusest" ^seb-RD200714902
-  Assets:SEB:2010                  -100.00 EUR
-  Expenses:External:MARTINREILENT   100.00 EUR
+  Assets:SEB:2010                   -100.00 EUR
+  Expenses:External:MARTIN-REILENT   100.00 EUR
 
 2020-07-31 * "REILENT MARTIN" "Makse SEB rakendusest" ^seb-RO2734703836
-  Assets:SEB:2010                  -100.00 EUR
-  Expenses:External:REILENTMARTIN   100.00 EUR
+  Assets:SEB:2010                   -100.00 EUR
+  Expenses:External:REILENT-MARTIN   100.00 EUR
 
 2020-07-31 * "REILENT MARTIN" "Sissemakse kogumishoiusele" ^seb-RO2734918689
-  Assets:SEB:2010                  -1300.00 EUR
-  Expenses:External:REILENTMARTIN   1300.00 EUR
+  Assets:SEB:2010                   -1300.00 EUR
+  Expenses:External:REILENT-MARTIN   1300.00 EUR
 
 2020-07-31 * "OÜ PLAYTECH ESTONIA" "Palk" ^seb-RO2734902705
   Assets:SEB:2010   2504.09 EUR
   Income:Salary    -2504.09 EUR
 
 2020-08-01 * "REILENT MARTIN" "Digikassa kanne" ^seb-RO2735173312
-  Assets:SEB:2010                  -1.20 EUR
-  Expenses:External:REILENTMARTIN   1.20 EUR
+  Assets:SEB:2010                   -1.20 EUR
+  Expenses:External:REILENT-MARTIN   1.20 EUR
 
 2020-08-03 * "AB Lietuvos draudimas Eesti filiaal" "Poliis nr 1049428147 Arve nr 7313231" ^seb-RO2735575653
   Assets:SEB:2010     -7.70 EUR
@@ -1524,7 +1524,7 @@
 
 2020-08-03 * "SEB Life and Pension Baltic SE Eesti filiaal" "SEB laenukaitse kindlustuse maksekorraldus" ^seb-RO2736343002
   Assets:SEB:2010     -20.22 EUR
-  Expenses:Insurance   20.22 EUR
+  Expenses:Bank:Fees   20.22 EUR
 
 2020-08-03 * "ALEXELA HARUTEE TANKLA\\AASMAE KULA               \\SAUE VALD    \\76402     ESTEST" "31/07/2020 09:44 kaart...549860 ALEXELA HARUTEE TANKLA/SAUE VALD/EST #535105" ^seb-RO2735995388
   Assets:SEB:2010               -29.97 EUR
@@ -1543,20 +1543,20 @@
   Liabilities:Loan   157.41 EUR
 
 2020-08-04 * "REILENT MARTIN" "Digikassa kanne" ^seb-RO2736847814
-  Assets:SEB:2010                  -0.52 EUR
-  Expenses:External:REILENTMARTIN   0.52 EUR
+  Assets:SEB:2010                   -0.52 EUR
+  Expenses:External:REILENT-MARTIN   0.52 EUR
 
 2020-08-04 * "Eesti Energia AS" "561163449307" ^seb-RO2736872034
   Assets:SEB:2010     -23.42 EUR
   Expenses:Utilities   23.42 EUR
 
 2020-08-04 * "REILENT MARTIN" "Makse SEB rakendusest" ^seb-RO2737293523
-  Assets:SEB:2010                  -100.00 EUR
-  Expenses:External:REILENTMARTIN   100.00 EUR
+  Assets:SEB:2010                   -100.00 EUR
+  Expenses:External:REILENT-MARTIN   100.00 EUR
 
 2020-08-04 * "Martin Reilent" "Makse SEB rakendusest" ^seb-RD200863635
-  Assets:SEB:2010                  -100.00 EUR
-  Expenses:External:MARTINREILENT   100.00 EUR
+  Assets:SEB:2010                   -100.00 EUR
+  Expenses:External:MARTIN-REILENT   100.00 EUR
 
 2020-08-05 * "SOS LASTEKÜLA EESTI ÜHING MTÜ" "SOS Lasteküla annetus" ^seb-RO2737708694
   Assets:SEB:2010   -10.00 EUR
@@ -1567,20 +1567,20 @@
   Expenses:Entertainment:Subscriptions   2.99 EUR
 
 2020-08-06 * "Veikko Kalmus" "Burxxx" ^seb-RD201014514
-  Assets:SEB:2010                 -11.86 EUR
-  Expenses:External:VEIKKOKALMUS   11.86 EUR
+  Assets:SEB:2010                  -11.86 EUR
+  Expenses:External:VEIKKO-KALMUS   11.86 EUR
 
 2020-08-06 * "NETFLIX.COM\\Keizersgracht 440 2nd Fl\\866-579-7172\\1016 GD   NLDNLD" "06/08/2020 00:00 kaart...549860 NETFLIX.COM/866-579-7172/NLD #624270" ^seb-RO2738738300
   Assets:SEB:2010                       -11.99 EUR
   Expenses:Entertainment:Subscriptions   11.99 EUR
 
 2020-08-07 * "REILENT MARTIN" "Digikassa kanne" ^seb-RO2739271278
-  Assets:SEB:2010                  -0.02 EUR
-  Expenses:External:REILENTMARTIN   0.02 EUR
+  Assets:SEB:2010                   -0.02 EUR
+  Expenses:External:REILENT-MARTIN   0.02 EUR
 
 2020-08-10 * "My Fitness AS" "Arve 20311836 tasumine" ^seb-RO2740786145
-  Assets:SEB:2010                -30.00 EUR
-  Expenses:External:MYFITNESSAS   30.00 EUR
+  Assets:SEB:2010                  -30.00 EUR
+  Expenses:External:MY-FITNESS-AS   30.00 EUR
 
 2020-08-10 * "Telia Eesti AS" "e-arve 08202003566073" ^seb-RO2740796224
   Assets:SEB:2010     -38.00 EUR
@@ -1591,32 +1591,32 @@
   Expenses:Unknown   59.61 EUR
 
 2020-08-11 * "REILENT MARTIN" "Digikassa kanne" ^seb-RO2742242021
-  Assets:SEB:2010                  -0.39 EUR
-  Expenses:External:REILENTMARTIN   0.39 EUR
+  Assets:SEB:2010                   -0.39 EUR
+  Expenses:External:REILENT-MARTIN   0.39 EUR
 
 2020-08-11 * "NIKOLAJEV ALEKSANDR" "grs" ^seb-RO2742784359
-  Assets:SEB:2010                       -40.00 EUR
-  Expenses:External:NIKOLAJEVALEKSANDR   40.00 EUR
+  Assets:SEB:2010                        -40.00 EUR
+  Expenses:External:NIKOLAJEV-ALEKSANDR   40.00 EUR
 
 2020-08-13 * "Telia Eesti AS" "Telia mobiilsete teenuste arve B20074340128" ^seb-RO2743675493
   Assets:SEB:2010     -1.00 EUR
   Expenses:Utilities   1.00 EUR
 
 2020-08-13 * "KÜ Raatuse 18" "Arve nr 200830 tasumine" ^seb-RD201367774
-  Assets:SEB:2010               -72.82 EUR
-  Expenses:External:KRAATUSE18   72.82 EUR
+  Assets:SEB:2010                 -72.82 EUR
+  Expenses:External:K-RAATUSE-18   72.82 EUR
 
 2020-08-13 * "OÜ PLAYTECH ESTONIA" "Puhkusetasu" ^seb-RO2744122618
   Assets:SEB:2010   1331.71 EUR
   Income:Salary    -1331.71 EUR
 
 2020-08-17 * "REILENT MARTIN" "Makse SEB rakendusest" ^seb-RO2746539875
-  Assets:SEB:2010                  -100.00 EUR
-  Expenses:External:REILENTMARTIN   100.00 EUR
+  Assets:SEB:2010                   -100.00 EUR
+  Expenses:External:REILENT-MARTIN   100.00 EUR
 
 2020-08-17 * "Martin Reilent" "Makse SEB rakendusest" ^seb-RD201542074
-  Assets:SEB:2010                  -100.00 EUR
-  Expenses:External:MARTINREILENT   100.00 EUR
+  Assets:SEB:2010                   -100.00 EUR
+  Expenses:External:MARTIN-REILENT   100.00 EUR
 
 2020-08-21 * "RIGAS SATIKSME 124\\11.NOVEMBRA KRASTM.PRETIM RTU\\RIGA\\LV-1050      LVA" "20/08/2020 17:19 kaart...549860 RIGAS SATIKSME 124/RIGA/LVA #062425" ^seb-RO2748812084
   Assets:SEB:2010   -16.50 EUR
@@ -1627,8 +1627,8 @@
   Expenses:Unknown   174.60 EUR
 
 2020-08-22 * "REILENT MARTIN" "Digikassa kanne" ^seb-RO2748997396
-  Assets:SEB:2010                  -0.90 EUR
-  Expenses:External:REILENTMARTIN   0.90 EUR
+  Assets:SEB:2010                   -0.90 EUR
+  Expenses:External:REILENT-MARTIN   0.90 EUR
 
 2020-08-24 open Expenses:Travel:Accommodation                   EUR
 
@@ -1653,16 +1653,16 @@
   Expenses:Travel:Accommodation   340.00 EUR
 
 2020-08-24 * "TEPPOR PATRICK" "drinks" ^seb-RO2750205290
-  Assets:SEB:2010                 46.84 EUR
-  Income:External:TEPPORPATRICK  -46.84 EUR
+  Assets:SEB:2010                  46.84 EUR
+  Income:External:TEPPOR-PATRICK  -46.84 EUR
 
-2020-08-25 open Expenses:External:MAKSEKESKUSAS                 EUR
+2020-08-25 open Expenses:External:MAKSEKESKUS-AS                EUR
 
-2020-08-25 open Income:External:PATTEINGRID                     EUR
+2020-08-25 open Income:External:PATTE-INGRID                    EUR
 
 2020-08-25 * "REILENT MARTIN" "Digikassa kanne" ^seb-RO2750337804
-  Assets:SEB:2010                  -1.30 EUR
-  Expenses:External:REILENTMARTIN   1.30 EUR
+  Assets:SEB:2010                   -1.30 EUR
+  Expenses:External:REILENT-MARTIN   1.30 EUR
 
 2020-08-25 * "Restorans LIBAVA      \\\\Liepaja      \\             LV" "21/08/2020 00:00 kaart...679766 Restorans LIBAVA/Liepaja/LV #178997" ^seb-RO2750455166
   Assets:SEB:2010   -87.90 EUR
@@ -1673,42 +1673,42 @@
   Expenses:Travel:Accommodation   188.00 EUR
 
 2020-08-25 * "MAKSEKESKUS AS" "SPA Tours OÜ, hotelwebsitebooking.com/meresuu, 232291 Martin Reilent 321742508 (13952549)" ^seb-RO2750764759
-  Assets:SEB:2010                  -492.00 EUR
-  Expenses:External:MAKSEKESKUSAS   492.00 EUR
+  Assets:SEB:2010                   -492.00 EUR
+  Expenses:External:MAKSEKESKUS-AS   492.00 EUR
 
 2020-08-25 * "PATTE INGRID" "Meresuu madness" ^seb-RO2750764279
-  Assets:SEB:2010               500.00 EUR
-  Income:External:PATTEINGRID  -500.00 EUR
+  Assets:SEB:2010                500.00 EUR
+  Income:External:PATTE-INGRID  -500.00 EUR
 
 2020-08-26 * "REILENT MARTIN" "Digikassa kanne" ^seb-RO2750870523
-  Assets:SEB:2010                  -0.10 EUR
-  Expenses:External:REILENTMARTIN   0.10 EUR
+  Assets:SEB:2010                   -0.10 EUR
+  Expenses:External:REILENT-MARTIN   0.10 EUR
 
 2020-08-26 * "VEIKALS ALKO1000 VALKA\\\\Valka             \\LVALVA" "24/08/2020 15:56 kaart...679766 VEIKALS ALKO1000 VALKA #457432" ^seb-RO2750906930
   Assets:SEB:2010   -221.18 EUR
   Expenses:Unknown   221.18 EUR
 
 2020-08-27 * "REILENT MARTIN" "Digikassa kanne" ^seb-RO2751413574
-  Assets:SEB:2010                  -0.82 EUR
-  Expenses:External:REILENTMARTIN   0.82 EUR
+  Assets:SEB:2010                   -0.82 EUR
+  Expenses:External:REILENT-MARTIN   0.82 EUR
 
 2020-08-27 * "REILENT MARTIN" "Makse SEB rakendusest" ^seb-RO2751813228
-  Assets:SEB:2010                  -200.00 EUR
-  Expenses:External:REILENTMARTIN   200.00 EUR
+  Assets:SEB:2010                   -200.00 EUR
+  Expenses:External:REILENT-MARTIN   200.00 EUR
 
 2020-08-28 * "SEB" "Kaardi ...679766 hooldustasu kuus (08/2020) | (TT)" ^seb-RO2751957390
   Assets:SEB:2010     -1.00 EUR
   Expenses:Bank:Fees   1.00 EUR
 
-2020-08-29 open Income:External:NIKOLAJEVALEKSANDR              EUR
+2020-08-29 open Income:External:NIKOLAJEV-ALEKSANDR             EUR
 
 2020-08-29 * "REILENT MARTIN" "Makse SEB rakendusest" ^seb-RO2752688216
-  Assets:SEB:2010                  -23.68 EUR
-  Expenses:External:REILENTMARTIN   23.68 EUR
+  Assets:SEB:2010                   -23.68 EUR
+  Expenses:External:REILENT-MARTIN   23.68 EUR
 
 2020-08-29 * "NIKOLAJEV ALEKSANDR" "tenent" ^seb-RO2752688103
-  Assets:SEB:2010                      23.68 EUR
-  Income:External:NIKOLAJEVALEKSANDR  -23.68 EUR
+  Assets:SEB:2010                       23.68 EUR
+  Income:External:NIKOLAJEV-ALEKSANDR  -23.68 EUR
 
 2020-08-31 * "OÜ PLAYTECH ESTONIA" "Palk" ^seb-RO2753514069
   Assets:SEB:2010   1669.27 EUR
@@ -1720,7 +1720,7 @@
 
 2020-09-02 * "SEB Life and Pension Baltic SE Eesti filiaal" "SEB laenukaitse kindlustuse maksekorraldus" ^seb-RO2755018958
   Assets:SEB:2010     -18.92 EUR
-  Expenses:Insurance   18.92 EUR
+  Expenses:Bank:Fees   18.92 EUR
 
 2020-09-02 * "Lep. 2015026274/intress/L150011342 | (L)" ^seb-RO2754591396
   Assets:SEB:2010   -120.41 EUR
@@ -1730,19 +1730,19 @@
   Assets:SEB:2010   -165.75 EUR
   Liabilities:Loan   165.75 EUR
 
-2020-09-05 open Expenses:External:PATTEINGRID                   EUR
+2020-09-05 open Expenses:External:PATTE-INGRID                  EUR
 
 2020-09-05 * "SOS LASTEKÜLA EESTI ÜHING MTÜ" "SOS Lasteküla annetus" ^seb-RO2757002136
   Assets:SEB:2010   -10.00 EUR
   Expenses:Charity   10.00 EUR
 
 2020-09-05 * "REILENT MARTIN" "Makse SEB rakendusest" ^seb-RO2757116482
-  Assets:SEB:2010                  -200.00 EUR
-  Expenses:External:REILENTMARTIN   200.00 EUR
+  Assets:SEB:2010                   -200.00 EUR
+  Expenses:External:REILENT-MARTIN   200.00 EUR
 
 2020-09-05 * "PATTE INGRID" "Meresuu madness tagasi" ^seb-RO2757116450
-  Assets:SEB:2010                -450.00 EUR
-  Expenses:External:PATTEINGRID   450.00 EUR
+  Assets:SEB:2010                 -450.00 EUR
+  Expenses:External:PATTE-INGRID   450.00 EUR
 
 2020-09-06 * "Eesti Energia AS" "561561783221" ^seb-RO2757153519
   Assets:SEB:2010     -22.04 EUR
@@ -1757,12 +1757,12 @@
   Expenses:Entertainment:Subscriptions   11.99 EUR
 
 2020-09-08 * "REILENT MARTIN" "Digikassa kanne" ^seb-RO2758562990
-  Assets:SEB:2010                  -0.02 EUR
-  Expenses:External:REILENTMARTIN   0.02 EUR
+  Assets:SEB:2010                   -0.02 EUR
+  Expenses:External:REILENT-MARTIN   0.02 EUR
 
 2020-09-10 * "My Fitness AS" "Arve 20351091 tasumine" ^seb-RO2760488055
-  Assets:SEB:2010                -30.00 EUR
-  Expenses:External:MYFITNESSAS   30.00 EUR
+  Assets:SEB:2010                  -30.00 EUR
+  Expenses:External:MY-FITNESS-AS   30.00 EUR
 
 2020-09-10 * "Telia Eesti AS" "e-arve 09202004070744" ^seb-RO2760492077
   Assets:SEB:2010     -38.00 EUR
@@ -1773,8 +1773,8 @@
   Expenses:Unknown   4.00 EUR
 
 2020-09-11 * "NIKOLAJEV ALEKSANDR" "Garaaz" ^seb-RO2761835955
-  Assets:SEB:2010                       -40.00 EUR
-  Expenses:External:NIKOLAJEVALEKSANDR   40.00 EUR
+  Assets:SEB:2010                        -40.00 EUR
+  Expenses:External:NIKOLAJEV-ALEKSANDR   40.00 EUR
 
 2020-09-13 * "Telia Eesti AS" "Telia mobiilsete teenuste arve B20084714086" ^seb-RO2762206672
   Assets:SEB:2010     -1.00 EUR
@@ -1789,12 +1789,12 @@
   Expenses:Transportation:Fuel   31.35 EUR
 
 2020-09-15 * "REILENT MARTIN" "Digikassa kanne" ^seb-RO2763728726
-  Assets:SEB:2010                  -1.31 EUR
-  Expenses:External:REILENTMARTIN   1.31 EUR
+  Assets:SEB:2010                   -1.31 EUR
+  Expenses:External:REILENT-MARTIN   1.31 EUR
 
 2020-09-15 * "PAYSERA LT UAB" "R393534659 Order 14027042 https://latinpassion.ee" ^seb-RO2764345317
-  Assets:SEB:2010                 -16.00 EUR
-  Expenses:External:PAYSERALTUAB   16.00 EUR
+  Assets:SEB:2010                   -16.00 EUR
+  Expenses:External:PAYSERA-LT-UAB   16.00 EUR
 
 2020-09-17 * "BOLT.EU" "17/09/2020 07:48 kaart...549860 BOLT.EU /O/2009170818/Tallinn/EST #731666" ^seb-RO2765345604
   Assets:SEB:2010   -6.30 EUR
@@ -1805,42 +1805,42 @@
   Expenses:Unknown   21.64 EUR
 
 2020-09-18 * "REILENT MARTIN" "Digikassa kanne" ^seb-RO2765701260
-  Assets:SEB:2010                  -1.06 EUR
-  Expenses:External:REILENTMARTIN   1.06 EUR
+  Assets:SEB:2010                   -1.06 EUR
+  Expenses:External:REILENT-MARTIN   1.06 EUR
 
 2020-09-18 * "VAPIANO TARTU         \\RIIA 2A" "17/09/2020 12:43 kaart...549860 VAPIANO TARTU/TARTU LINN/EST #745827" ^seb-RO2765930397
   Assets:SEB:2010   -30.60 EUR
   Expenses:Unknown   30.60 EUR
 
 2020-09-19 * "REILENT MARTIN" "Digikassa kanne" ^seb-RO2766278923
-  Assets:SEB:2010                  -0.40 EUR
-  Expenses:External:REILENTMARTIN   0.40 EUR
+  Assets:SEB:2010                   -0.40 EUR
+  Expenses:External:REILENT-MARTIN   0.40 EUR
 
 2020-09-19 * "Martin Reilent" "Makse SEB rakendusest" ^seb-RD202880079
-  Assets:SEB:2010                  -100.00 EUR
-  Expenses:External:MARTINREILENT   100.00 EUR
+  Assets:SEB:2010                   -100.00 EUR
+  Expenses:External:MARTIN-REILENT   100.00 EUR
 
 2020-09-20 * "REILENT MARTIN" "Makse SEB rakendusest" ^seb-RO2766495704
-  Assets:SEB:2010                  -200.00 EUR
-  Expenses:External:REILENTMARTIN   200.00 EUR
+  Assets:SEB:2010                   -200.00 EUR
+  Expenses:External:REILENT-MARTIN   200.00 EUR
 
-2020-09-24 open Expenses:External:ALLASALMAR                    EUR
+2020-09-24 open Expenses:External:ALLAS-ALMAR                   EUR
 
 2020-09-24 * "PIZZERIA LA DOLCE VITA\\KOMPANII 10               \\TARTU        \\51007     ESTEST" "23/09/2020 12:56 kaart...549860 PIZZERIA LA DOLCE VITA/TARTU/EST #346570" ^seb-RO2768992923
   Assets:SEB:2010   -5.04 EUR
   Expenses:Unknown   5.04 EUR
 
 2020-09-24 * "ALLAS ALMAR" "Meelis rase" ^seb-RO2768864427
-  Assets:SEB:2010               -10.00 EUR
-  Expenses:External:ALLASALMAR   10.00 EUR
+  Assets:SEB:2010                -10.00 EUR
+  Expenses:External:ALLAS-ALMAR   10.00 EUR
 
 2020-09-25 * "REILENT MARTIN" "Digikassa kanne" ^seb-RO2769327060
-  Assets:SEB:2010                  -0.96 EUR
-  Expenses:External:REILENTMARTIN   0.96 EUR
+  Assets:SEB:2010                   -0.96 EUR
+  Expenses:External:REILENT-MARTIN   0.96 EUR
 
 2020-09-25 * "Martin Reilent" "Makse SEB rakendusest" ^seb-RD203048922
-  Assets:SEB:2010                  -100.00 EUR
-  Expenses:External:MARTINREILENT   100.00 EUR
+  Assets:SEB:2010                   -100.00 EUR
+  Expenses:External:MARTIN-REILENT   100.00 EUR
 
 2020-09-28 * "SEB" "Kaardi ...679766 hooldustasu kuus (09/2020) | (TT)" ^seb-RO2770085382
   Assets:SEB:2010     -1.00 EUR
@@ -1855,24 +1855,24 @@
   Expenses:Transportation:Fuel   5.90 EUR
 
 2020-09-29 * "REILENT MARTIN" "Digikassa kanne" ^seb-RO2771249771
-  Assets:SEB:2010                  -0.10 EUR
-  Expenses:External:REILENTMARTIN   0.10 EUR
+  Assets:SEB:2010                   -0.10 EUR
+  Expenses:External:REILENT-MARTIN   0.10 EUR
 
 2020-09-30 * "REILENT MARTIN" "Sissemakse kogumishoiusele" ^seb-RO2772062408
-  Assets:SEB:2010                  -1500.00 EUR
-  Expenses:External:REILENTMARTIN   1500.00 EUR
+  Assets:SEB:2010                   -1500.00 EUR
+  Expenses:External:REILENT-MARTIN   1500.00 EUR
 
 2020-09-30 * "OÜ PLAYTECH ESTONIA" "Palk" ^seb-RO2771921356
   Assets:SEB:2010   2718.14 EUR
   Income:Salary    -2718.14 EUR
 
 2020-10-01 * "Martin Reilent" "Makse SEB rakendusest" ^seb-RD203271120
-  Assets:SEB:2010                  -100.00 EUR
-  Expenses:External:MARTINREILENT   100.00 EUR
+  Assets:SEB:2010                   -100.00 EUR
+  Expenses:External:MARTIN-REILENT   100.00 EUR
 
 2020-10-01 * "Martin Reilent" "Makse SEB rakendusest" ^seb-RD203291240
-  Assets:SEB:2010                  -200.00 EUR
-  Expenses:External:MARTINREILENT   200.00 EUR
+  Assets:SEB:2010                   -200.00 EUR
+  Expenses:External:MARTIN-REILENT   200.00 EUR
 
 2020-10-02 * "AB Lietuvos draudimas Eesti filiaal" "Poliis nr 1049428147 Arve nr 7575691" ^seb-RO2773051285
   Assets:SEB:2010     -7.70 EUR
@@ -1880,7 +1880,7 @@
 
 2020-10-02 * "SEB Life and Pension Baltic SE Eesti filiaal" "SEB laenukaitse kindlustuse maksekorraldus" ^seb-RO2773438296
   Assets:SEB:2010     -18.88 EUR
-  Expenses:Insurance   18.88 EUR
+  Expenses:Bank:Fees   18.88 EUR
 
 2020-10-02 * "Lep. 2015026274/intress/L150011342 | (L)" ^seb-RO2772969280
   Assets:SEB:2010   -120.12 EUR
@@ -1899,8 +1899,8 @@
   Expenses:Charity   10.00 EUR
 
 2020-10-06 * "REILENT MARTIN" "Digikassa kanne" ^seb-RO2775691240
-  Assets:SEB:2010                  -0.01 EUR
-  Expenses:External:REILENTMARTIN   0.01 EUR
+  Assets:SEB:2010                   -0.01 EUR
+  Expenses:External:REILENT-MARTIN   0.01 EUR
 
 2020-10-06 * "NETFLIX.COM\\Keizersgracht 440 2nd Fl\\866-579-7172\\1016 GD   NLDNLD" "06/10/2020 00:00 kaart...549860 NETFLIX.COM/866-579-7172/NLD #628061" ^seb-RO2775977905
   Assets:SEB:2010                       -11.99 EUR
@@ -1911,24 +1911,24 @@
   Expenses:Utilities   27.65 EUR
 
 2020-10-07 * "REILENT MARTIN" "Digikassa kanne" ^seb-RO2776431391
-  Assets:SEB:2010                  -0.01 EUR
-  Expenses:External:REILENTMARTIN   0.01 EUR
+  Assets:SEB:2010                   -0.01 EUR
+  Expenses:External:REILENT-MARTIN   0.01 EUR
 
 2020-10-09 * "REILENT MARTIN" "Makse SEB rakendusest" ^seb-RO2778788314
-  Assets:SEB:2010                  -43.45 EUR
-  Expenses:External:REILENTMARTIN   43.45 EUR
+  Assets:SEB:2010                   -43.45 EUR
+  Expenses:External:REILENT-MARTIN   43.45 EUR
 
 2020-10-09 * "OÜ PLAYTECH ESTONIA" "Kalade programm 10/2020" ^seb-RO2778568188
-  Assets:SEB:2010                    161.54 EUR
-  Income:External:OPLAYTECHESTONIA  -161.54 EUR
+  Assets:SEB:2010                      161.54 EUR
+  Income:External:O-PLAYTECH-ESTONIA  -161.54 EUR
 
 2020-10-10 * "My Fitness AS" "Arve 20374706 tasumine" ^seb-RO2778980358
-  Assets:SEB:2010                -30.00 EUR
-  Expenses:External:MYFITNESSAS   30.00 EUR
+  Assets:SEB:2010                  -30.00 EUR
+  Expenses:External:MY-FITNESS-AS   30.00 EUR
 
 2020-10-10 * "NIKOLAJEV ALEKSANDR" "Garaaz" ^seb-RO2779103698
-  Assets:SEB:2010                       -40.00 EUR
-  Expenses:External:NIKOLAJEVALEKSANDR   40.00 EUR
+  Assets:SEB:2010                        -40.00 EUR
+  Expenses:External:NIKOLAJEV-ALEKSANDR   40.00 EUR
 
 2020-10-10 * "Telia Eesti AS" "e-arve 10202004580466" ^seb-RO2778984950
   Assets:SEB:2010     -41.74 EUR
@@ -1939,40 +1939,40 @@
   Expenses:Unknown   8.35 EUR
 
 2020-10-13 * "REILENT MARTIN" "Digikassa kanne" ^seb-RO2780640094
-  Assets:SEB:2010                  -0.65 EUR
-  Expenses:External:REILENTMARTIN   0.65 EUR
+  Assets:SEB:2010                   -0.65 EUR
+  Expenses:External:REILENT-MARTIN   0.65 EUR
 
 2020-10-13 * "Telia Eesti AS" "Telia mobiilsete teenuste arve B20095089544" ^seb-RO2780682846
   Assets:SEB:2010     -1.00 EUR
   Expenses:Utilities   1.00 EUR
 
 2020-10-14 * "PAYSERA LT UAB" "R401612840 Order 72653116 https://latinpassion.ee" ^seb-RO2782058696
-  Assets:SEB:2010                 -25.00 EUR
-  Expenses:External:PAYSERALTUAB   25.00 EUR
+  Assets:SEB:2010                   -25.00 EUR
+  Expenses:External:PAYSERA-LT-UAB   25.00 EUR
 
 2020-10-14 * "KÜ Raatuse 18" "Arve nr 201030 tasumine" ^seb-RD203976310
-  Assets:SEB:2010               -149.00 EUR
-  Expenses:External:KRAATUSE18   149.00 EUR
+  Assets:SEB:2010                 -149.00 EUR
+  Expenses:External:K-RAATUSE-18   149.00 EUR
 
 2020-10-16 * "REILENT MARTIN" "Makse SEB rakendusest" ^seb-RO2783481558
-  Assets:SEB:2010                  -200.00 EUR
-  Expenses:External:REILENTMARTIN   200.00 EUR
+  Assets:SEB:2010                   -200.00 EUR
+  Expenses:External:REILENT-MARTIN   200.00 EUR
 
 2020-10-21 * "Martin Reilent" "Makse SEB rakendusest" ^seb-RD204264065
-  Assets:SEB:2010                  -200.00 EUR
-  Expenses:External:MARTINREILENT   200.00 EUR
+  Assets:SEB:2010                   -200.00 EUR
+  Expenses:External:MARTIN-REILENT   200.00 EUR
 
 2020-10-28 * "SEB" "Kaardi ...679766 hooldustasu kuus (10/2020) | (TT)" ^seb-RO2789153859
   Assets:SEB:2010     -1.00 EUR
   Expenses:Bank:Fees   1.00 EUR
 
 2020-10-29 * "Martin Reilent" "Makse SEB rakendusest" ^seb-RD204499917
-  Assets:SEB:2010                  -5000.00 EUR
-  Expenses:External:MARTINREILENT   5000.00 EUR
+  Assets:SEB:2010                   -5000.00 EUR
+  Expenses:External:MARTIN-REILENT   5000.00 EUR
 
 2020-10-29 * "REILENT MARTIN" "Väljamakse kogumishoiuselt" ^seb-RO2789816521
-  Assets:SEB:2010                 5000.00 EUR
-  Income:External:REILENTMARTIN  -5000.00 EUR
+  Assets:SEB:2010                  5000.00 EUR
+  Income:External:REILENT-MARTIN  -5000.00 EUR
 
 2020-10-30 * "RAHANDUSMINISTEERIUM" "ETeenindus isik 39201282235 taotlus 101605642 alus RLS 224lg2" ^seb-RO2790849075
   Assets:SEB:2010                         -12.00 EUR
@@ -1982,7 +1982,7 @@
   Assets:SEB:2010   2568.10 EUR
   Income:Salary    -2568.10 EUR
 
-2020-11-02 open Expenses:External:PENSIONIKESKUSAS              EUR
+2020-11-02 open Expenses:External:PENSIONIKESKUS-AS             EUR
 
 2020-11-02 * "AB Lietuvos draudimas Eesti filiaal" "Poliis nr 1049428147 Arve nr 7695785" ^seb-RO2791268799
   Assets:SEB:2010     -7.70 EUR
@@ -1990,7 +1990,7 @@
 
 2020-11-02 * "SEB Life and Pension Baltic SE Eesti filiaal" "SEB laenukaitse kindlustuse maksekorraldus" ^seb-RO2791709420
   Assets:SEB:2010     -19.47 EUR
-  Expenses:Insurance   19.47 EUR
+  Expenses:Bank:Fees   19.47 EUR
 
 2020-11-02 * "Lep. 2015026274/intress/L150011342 | (L)" ^seb-RO2791236309
   Assets:SEB:2010   -123.80 EUR
@@ -2001,8 +2001,8 @@
   Liabilities:Loan   162.36 EUR
 
 2020-11-02 * "Pensionikeskus AS" "30101119828" ^seb-RD204621794
-  Assets:SEB:2010                     -350.00 EUR
-  Expenses:External:PENSIONIKESKUSAS   350.00 EUR
+  Assets:SEB:2010                      -350.00 EUR
+  Expenses:External:PENSIONIKESKUS-AS   350.00 EUR
 
 2020-11-03 * "BOLT.EU" "01/11/2020 15:10 kaart...549860 BOLT.EU /O/2011011513/Tallinn/EST #158142" ^seb-RO2792545852
   Assets:SEB:2010   -10.40 EUR
@@ -2013,12 +2013,12 @@
   Expenses:Unknown   18.30 EUR
 
 2020-11-03 * "Martin Reilent" "Makse SEB rakendusest" ^seb-RD204705484
-  Assets:SEB:2010                  -200.00 EUR
-  Expenses:External:MARTINREILENT   200.00 EUR
+  Assets:SEB:2010                   -200.00 EUR
+  Expenses:External:MARTIN-REILENT   200.00 EUR
 
 2020-11-04 * "REILENT MARTIN" "Digikassa kanne" ^seb-RO2793119829
-  Assets:SEB:2010                  -1.30 EUR
-  Expenses:External:REILENTMARTIN   1.30 EUR
+  Assets:SEB:2010                   -1.30 EUR
+  Expenses:External:REILENT-MARTIN   1.30 EUR
 
 2020-11-05 * "APPLE.COM" "05/11/2020 00:00 kaart...549860 APPLE.COM/BILL/ITUNES.COM/IRL #507524" ^seb-RO2794236703
   Assets:SEB:2010                       -2.99 EUR
@@ -2029,74 +2029,74 @@
   Expenses:Charity   10.00 EUR
 
 2020-11-06 * "REILENT MARTIN" "Digikassa kanne" ^seb-RO2794808305
-  Assets:SEB:2010                  -0.01 EUR
-  Expenses:External:REILENTMARTIN   0.01 EUR
+  Assets:SEB:2010                   -0.01 EUR
+  Expenses:External:REILENT-MARTIN   0.01 EUR
 
 2020-11-06 * "NETFLIX.COM\\Keizersgracht 440 2nd Fl\\866-579-7172\\1016 GD   NLDNLD" "06/11/2020 00:00 kaart...549860 NETFLIX.COM/866-579-7172/NLD #628280" ^seb-RO2795133543
   Assets:SEB:2010                       -11.99 EUR
   Expenses:Entertainment:Subscriptions   11.99 EUR
 
 2020-11-06 * "OÜ PLAYTECH ESTONIA" "Kalade reispassid" ^seb-RO2795459754
-  Assets:SEB:2010                    1200.00 EUR
-  Income:External:OPLAYTECHESTONIA  -1200.00 EUR
+  Assets:SEB:2010                      1200.00 EUR
+  Income:External:O-PLAYTECH-ESTONIA  -1200.00 EUR
 
 2020-11-07 * "REILENT MARTIN" "Digikassa kanne" ^seb-RO2795670436
-  Assets:SEB:2010                  -0.01 EUR
-  Expenses:External:REILENTMARTIN   0.01 EUR
+  Assets:SEB:2010                   -0.01 EUR
+  Expenses:External:REILENT-MARTIN   0.01 EUR
 
 2020-11-09 * "Eesti Energia AS" "561182038710" ^seb-RO2796252307
   Assets:SEB:2010     -24.74 EUR
   Expenses:Utilities   24.74 EUR
 
 2020-11-10 * "My Fitness AS" "Arve 20407872 tasumine" ^seb-RO2797692868
-  Assets:SEB:2010                -30.00 EUR
-  Expenses:External:MYFITNESSAS   30.00 EUR
+  Assets:SEB:2010                  -30.00 EUR
+  Expenses:External:MY-FITNESS-AS   30.00 EUR
 
 2020-11-10 * "NIKOLAJEV ALEKSANDR" "Soovin makset" ^seb-RO2798381070
-  Assets:SEB:2010                       -40.00 EUR
-  Expenses:External:NIKOLAJEVALEKSANDR   40.00 EUR
+  Assets:SEB:2010                        -40.00 EUR
+  Expenses:External:NIKOLAJEV-ALEKSANDR   40.00 EUR
 
 2020-11-10 * "Telia Eesti AS" "e-arve 20201002534724" ^seb-RO2797846840
   Assets:SEB:2010     -43.00 EUR
   Expenses:Utilities   43.00 EUR
 
 2020-11-10 * "Martin Reilent" "Makse SEB rakendusest" ^seb-RD205153963
-  Assets:SEB:2010                  -1700.00 EUR
-  Expenses:External:MARTINREILENT   1700.00 EUR
+  Assets:SEB:2010                   -1700.00 EUR
+  Expenses:External:MARTIN-REILENT   1700.00 EUR
 
 2020-11-13 * "Telia Eesti AS" "e-arve 20201002524926" ^seb-RO2799922191
   Assets:SEB:2010     -1.00 EUR
   Expenses:Utilities   1.00 EUR
 
 2020-11-14 * "KÜ Raatuse 18" "Arve nr 201130 tasumine" ^seb-RD205362486
-  Assets:SEB:2010               -91.48 EUR
-  Expenses:External:KRAATUSE18   91.48 EUR
+  Assets:SEB:2010                 -91.48 EUR
+  Expenses:External:K-RAATUSE-18   91.48 EUR
 
-2020-11-16 open Expenses:External:COMMERCETRADINGO              EUR
+2020-11-16 open Expenses:External:COMMERCE-TRADING-O            EUR
 
 2020-11-16 * "Veikko Kalmus" "Kana" ^seb-RD205428777
-  Assets:SEB:2010                 -8.00 EUR
-  Expenses:External:VEIKKOKALMUS   8.00 EUR
+  Assets:SEB:2010                  -8.00 EUR
+  Expenses:External:VEIKKO-KALMUS   8.00 EUR
 
 2020-11-16 * "COMMERCE TRADING OÜ" "ME-1482142" ^seb-RO2800924061
-  Assets:SEB:2010                     -14.80 EUR
-  Expenses:External:COMMERCETRADINGO   14.80 EUR
+  Assets:SEB:2010                       -14.80 EUR
+  Expenses:External:COMMERCE-TRADING-O   14.80 EUR
 
 2020-11-19 * "PAYSERA LT UAB" "R412842764 Order 38338483 https://latinpassion.ee" ^seb-RO2803805112
-  Assets:SEB:2010                 -25.00 EUR
-  Expenses:External:PAYSERALTUAB   25.00 EUR
+  Assets:SEB:2010                   -25.00 EUR
+  Expenses:External:PAYSERA-LT-UAB   25.00 EUR
 
 2020-11-19 * "Martin Reilent" "Makse SEB rakendusest" ^seb-RD205576444
-  Assets:SEB:2010                  -200.00 EUR
-  Expenses:External:MARTINREILENT   200.00 EUR
+  Assets:SEB:2010                   -200.00 EUR
+  Expenses:External:MARTIN-REILENT   200.00 EUR
 
 2020-11-23 * "BOLT.EU" "21/11/2020 11:54 kaart...549860 BOLT.EU /O/2011211230/Tallinn/EST #146440" ^seb-RO2804901559
   Assets:SEB:2010   -3.20 EUR
   Expenses:Unknown   3.20 EUR
 
 2020-11-24 * "REILENT MARTIN" "Digikassa kanne" ^seb-RO2805886689
-  Assets:SEB:2010                  -0.80 EUR
-  Expenses:External:REILENTMARTIN   0.80 EUR
+  Assets:SEB:2010                   -0.80 EUR
+  Expenses:External:REILENT-MARTIN   0.80 EUR
 
 2020-11-25 * "BOLT.EU" "24/11/2020 18:17 kaart...549860 BOLT.EU /O/2011241848/Tallinn/EST #469423" ^seb-RO2806463071
   Assets:SEB:2010   -5.40 EUR
@@ -2107,24 +2107,24 @@
   Expenses:Unknown   6.60 EUR
 
 2020-11-26 * "REILENT MARTIN" "Digikassa kanne" ^seb-RO2806929011
-  Assets:SEB:2010                  -1.00 EUR
-  Expenses:External:REILENTMARTIN   1.00 EUR
+  Assets:SEB:2010                   -1.00 EUR
+  Expenses:External:REILENT-MARTIN   1.00 EUR
 
 2020-11-26 * "FOOD.BOLT.EU" "25/11/2020 18:39 kaart...549860 FOOD.BOLT.EU /C/201124/Viimsi/EST #469666" ^seb-RO2807011327
   Assets:SEB:2010   -20.05 EUR
   Expenses:Unknown   20.05 EUR
 
 2020-11-27 * "REILENT MARTIN" "Digikassa kanne" ^seb-RO2807454832
-  Assets:SEB:2010                  -0.95 EUR
-  Expenses:External:REILENTMARTIN   0.95 EUR
+  Assets:SEB:2010                   -0.95 EUR
+  Expenses:External:REILENT-MARTIN   0.95 EUR
 
 2020-11-28 * "SEB" "Kaardi ...679766 hooldustasu kuus (11/2020) | (TT)" ^seb-RO2807984137
   Assets:SEB:2010     -1.00 EUR
   Expenses:Bank:Fees   1.00 EUR
 
 2020-11-28 * "REILENT MARTIN" "Makse SEB rakendusest" ^seb-RO2808198540
-  Assets:SEB:2010                  -200.00 EUR
-  Expenses:External:REILENTMARTIN   200.00 EUR
+  Assets:SEB:2010                   -200.00 EUR
+  Expenses:External:REILENT-MARTIN   200.00 EUR
 
 2020-11-30 * "OÜ PLAYTECH ESTONIA" "Palk" ^seb-RO2809003418
   Assets:SEB:2010   2568.10 EUR
@@ -2132,7 +2132,7 @@
 
 2020-12-02 * "SEB Life and Pension Baltic SE Eesti filiaal" "SEB laenukaitse kindlustuse maksekorraldus" ^seb-RO2810534171
   Assets:SEB:2010     -18.81 EUR
-  Expenses:Insurance   18.81 EUR
+  Expenses:Bank:Fees   18.81 EUR
 
 2020-12-02 * "Lep. 2015026274/intress/L150011342 | (L)" ^seb-RO2810098853
   Assets:SEB:2010   -119.51 EUR
@@ -2143,8 +2143,8 @@
   Liabilities:Loan   166.65 EUR
 
 2020-12-02 * "Pensionikeskus AS" "30101119828" ^seb-RD206008275
-  Assets:SEB:2010                     -350.00 EUR
-  Expenses:External:PENSIONIKESKUSAS   350.00 EUR
+  Assets:SEB:2010                      -350.00 EUR
+  Expenses:External:PENSIONIKESKUS-AS   350.00 EUR
 
 2020-12-04 * "AB Lietuvos draudimas Eesti filiaal" "Poliis nr 1049428147 Arve nr 7811829" ^seb-RO2811742825
   Assets:SEB:2010     -7.70 EUR
@@ -2155,16 +2155,16 @@
   Expenses:Charity   10.00 EUR
 
 2020-12-06 * "PAYSERA LT UAB" "R419456303 Order 85584158 https://latinpassion.ee" ^seb-RO2812742940
-  Assets:SEB:2010                 -25.00 EUR
-  Expenses:External:PAYSERALTUAB   25.00 EUR
+  Assets:SEB:2010                   -25.00 EUR
+  Expenses:External:PAYSERA-LT-UAB   25.00 EUR
 
 2020-12-06 * "Eesti Energia AS" "561634232086" ^seb-RO2812685237
   Assets:SEB:2010     -26.11 EUR
   Expenses:Utilities   26.11 EUR
 
 2020-12-06 * "REILENT MARTIN" "Makse SEB rakendusest" ^seb-RO2812753033
-  Assets:SEB:2010                  -200.00 EUR
-  Expenses:External:REILENTMARTIN   200.00 EUR
+  Assets:SEB:2010                   -200.00 EUR
+  Expenses:External:REILENT-MARTIN   200.00 EUR
 
 2020-12-07 * "APPLE.COM" "05/12/2020 00:00 kaart...549860 APPLE.COM/BILL/ITUNES.COM/IRL #507643" ^seb-RO2813602500
   Assets:SEB:2010                       -2.99 EUR
@@ -2179,52 +2179,52 @@
   Expenses:Unknown   21.30 EUR
 
 2020-12-08 * "REILENT MARTIN" "Digikassa kanne" ^seb-RO2814372402
-  Assets:SEB:2010                  -0.72 EUR
-  Expenses:External:REILENTMARTIN   0.72 EUR
+  Assets:SEB:2010                   -0.72 EUR
+  Expenses:External:REILENT-MARTIN   0.72 EUR
 
 2020-12-08 * "KIVI KONSUM           \\NARVA MNT 25A             \\TARTU LINN   \\51013     ESTEST" "07/12/2020 21:48 kaart...549860 KIVI KONSUM/TARTU LINN/EST #778490" ^seb-RO2814585798
   Assets:SEB:2010   -3.24 EUR
   Expenses:Unknown   3.24 EUR
 
 2020-12-09 * "REILENT MARTIN" "Digikassa kanne" ^seb-RO2815123967
-  Assets:SEB:2010                  -0.76 EUR
-  Expenses:External:REILENTMARTIN   0.76 EUR
+  Assets:SEB:2010                   -0.76 EUR
+  Expenses:External:REILENT-MARTIN   0.76 EUR
 
 2020-12-09 * "REILENT MARTIN" "Makse SEB rakendusest" ^seb-RO2815057159
-  Assets:SEB:2010                  -1000.00 EUR
-  Expenses:External:REILENTMARTIN   1000.00 EUR
+  Assets:SEB:2010                   -1000.00 EUR
+  Expenses:External:REILENT-MARTIN   1000.00 EUR
 
 2020-12-09 * "OÜ PLAYTECH ESTONIA" "Kalade programm 12/2020" ^seb-RO2815722792
-  Assets:SEB:2010                    108.46 EUR
-  Income:External:OPLAYTECHESTONIA  -108.46 EUR
+  Assets:SEB:2010                      108.46 EUR
+  Income:External:O-PLAYTECH-ESTONIA  -108.46 EUR
 
 2020-12-10 * "My Fitness AS" "Arve 20436973 tasumine" ^seb-RO2816016747
-  Assets:SEB:2010                -30.00 EUR
-  Expenses:External:MYFITNESSAS   30.00 EUR
+  Assets:SEB:2010                  -30.00 EUR
+  Expenses:External:MY-FITNESS-AS   30.00 EUR
 
 2020-12-10 * "Telia Eesti AS" "e-arve 20201102803870" ^seb-RO2816103217
   Assets:SEB:2010     -43.00 EUR
   Expenses:Utilities   43.00 EUR
 
 2020-12-11 * "KASPAR KRIISK" "Pede" ^seb-RD206625925
-  Assets:SEB:2010                 -70.80 EUR
-  Expenses:External:KASPARKRIISK   70.80 EUR
+  Assets:SEB:2010                  -70.80 EUR
+  Expenses:External:KASPAR-KRIISK   70.80 EUR
 
 2020-12-12 * "NIKOLAJEV ALEKSANDR" "garaas" ^seb-RO2817688417
-  Assets:SEB:2010                       -50.00 EUR
-  Expenses:External:NIKOLAJEVALEKSANDR   50.00 EUR
+  Assets:SEB:2010                        -50.00 EUR
+  Expenses:External:NIKOLAJEV-ALEKSANDR   50.00 EUR
 
 2020-12-13 * "Telia Eesti AS" "e-arve 20201102794095" ^seb-RO2817783976
   Assets:SEB:2010     -1.00 EUR
   Expenses:Utilities   1.00 EUR
 
 2020-12-13 * "KÜ Raatuse 18" "Arve nr 201230 tasumine" ^seb-RD206687056
-  Assets:SEB:2010               -108.55 EUR
-  Expenses:External:KRAATUSE18   108.55 EUR
+  Assets:SEB:2010                 -108.55 EUR
+  Expenses:External:K-RAATUSE-18   108.55 EUR
 
 2020-12-13 * "REILENT MARTIN" "Makse SEB rakendusest" ^seb-RO2817867245
-  Assets:SEB:2010                  -200.00 EUR
-  Expenses:External:REILENTMARTIN   200.00 EUR
+  Assets:SEB:2010                   -200.00 EUR
+  Expenses:External:REILENT-MARTIN   200.00 EUR
 
 2020-12-16 * "V SPA                 \\RIIA 2                    \\TARTU LINN   \\51013     ESTEST" "15/12/2020 13:24 kaart...549860 V SPA/TARTU LINN/EST #548322" ^seb-RO2820337815
   Assets:SEB:2010   -54.00 EUR
@@ -2247,8 +2247,8 @@
   Expenses:Unknown   6.20 EUR
 
 2020-12-19 * "REILENT MARTIN" "Digikassa kanne" ^seb-RO2821722722
-  Assets:SEB:2010                  -2.40 EUR
-  Expenses:External:REILENTMARTIN   2.40 EUR
+  Assets:SEB:2010                   -2.40 EUR
+  Expenses:External:REILENT-MARTIN   2.40 EUR
 
 2020-12-21 * "BOLT.EU" "19/12/2020 16:58 kaart...549860 BOLT.EU /O/2012191700/Tallinn/EST #961225" ^seb-RO2822704146
   Assets:SEB:2010   -2.90 EUR
@@ -2263,8 +2263,8 @@
   Expenses:Unknown   15.35 EUR
 
 2020-12-22 * "REILENT MARTIN" "Digikassa kanne" ^seb-RO2822967172
-  Assets:SEB:2010                  -0.95 EUR
-  Expenses:External:REILENTMARTIN   0.95 EUR
+  Assets:SEB:2010                   -0.95 EUR
+  Expenses:External:REILENT-MARTIN   0.95 EUR
 
 2020-12-22 * "KIKA LOUNAKESKUS TARTU\\RINGTEE 75\\TARTU\\50501        EST" "21/12/2020 17:10 kaart...657994 KIKA LOUNAKESKUS TARTU #161836" ^seb-RO2823015575
   Assets:SEB:2010   -3.59 EUR
@@ -2291,8 +2291,8 @@
   Expenses:Unknown   81.00 EUR
 
 2020-12-23 * "REILENT MARTIN" "Digikassa kanne" ^seb-RO2823589388
-  Assets:SEB:2010                  -1.98 EUR
-  Expenses:External:REILENTMARTIN   1.98 EUR
+  Assets:SEB:2010                   -1.98 EUR
+  Expenses:External:REILENT-MARTIN   1.98 EUR
 
 2020-12-28 * "SEB" "Kaardi ...679766 hooldustasu kuus (12/2020) | (TT)" ^seb-RO2825075498
   Assets:SEB:2010     -1.00 EUR
@@ -2307,12 +2307,12 @@
   Expenses:Transportation:Fuel   31.47 EUR
 
 2020-12-29 * "REILENT MARTIN" "Digikassa kanne" ^seb-RO2826457066
-  Assets:SEB:2010                  -0.63 EUR
-  Expenses:External:REILENTMARTIN   0.63 EUR
+  Assets:SEB:2010                   -0.63 EUR
+  Expenses:External:REILENT-MARTIN   0.63 EUR
 
 2020-12-31 * "REILENT MARTIN" "Makse SEB rakendusest" ^seb-RO2827983242
-  Assets:SEB:2010                  -2200.00 EUR
-  Expenses:External:REILENTMARTIN   2200.00 EUR
+  Assets:SEB:2010                   -2200.00 EUR
+  Expenses:External:REILENT-MARTIN   2200.00 EUR
 
 2020-12-31 * "OÜ PLAYTECH ESTONIA" "Palk" ^seb-RO2827868270
   Assets:SEB:2010   2578.01 EUR
