@@ -15,7 +15,7 @@ from beancount.core import data
 from beancount.core import flags
 from beancount.core.number import D
 
-from .account_mapper import AccountMapper
+from account_mapper import AccountMapper
 
 log = utils.logger(verbosity=1, err=True)
 
