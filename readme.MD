@@ -2,28 +2,23 @@
 
 A project for bookkeeping and financial management.
 
-## Features
-- Track income and expenses
-- Generate financial reports
-- Manage accounts
+# Start
+```bash
+git clone git@github.com:beancount/beangulp.git
+cd beangulp/examples
+```
 
-## Getting Started
-1. Clone the repository:
-   ```bash
-   git clone <repo-url>
-   ```
-2. Install dependencies (if applicable).
-3. Run the application as described in the project documentation.
+Install beangulp and beancount in a `.venv`.
 
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+```bash
+apt-get install python3-venv # required for virtual env
+python3 -m venv .venv # create in subfolder called ".venv"
+source ./.venv/bin/activate
+pip install beangulp beancount
+```
 
-## License
-[MIT](LICENSE)
-
-## TODO
-
-bean-example > example.beancount
-
+```bash
+python import.py extract ./Downloads > tmp.beancount
+```
 
 docker run -itd -p 5000:5000 -v ./:/files -e BEANCOUNT_FILE=/files/example.beancount --name fava fava
